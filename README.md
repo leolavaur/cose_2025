@@ -1,7 +1,7 @@
-# Computers & Security 2024
+# Computers & Security 2025
 
-This repository contains the code for the paper "Investigating the Impact of Label-flipping Attacks against Federated Intrusion Detection Systems", submitted to the December 2024 special issue of Computers & Security: "Advances in Robust Intrusion Detection through Machine Learning".
-If you use this code, please cite the following paper:
+This repository contains the code for the paper "Investigating the Impact of Label-flipping Attacks against Federated Learning for Collaborative Intrusion Detection", published in the 2025 special issue of Computers & Security: "Advances in Robust Intrusion Detection through Machine Learning".
+If you use this data or the mentioned experimentation framework, please cite the following paper:
 
 ```bibtex
 % Coming soon.
@@ -9,12 +9,13 @@ If you use this code, please cite the following paper:
 
 ## Abstract
 
-The recent advances in Federated Learning (FL) and its promise of privacy-preserving information sharing have led to a renewed interest in the development of collaborative models for Intrusion Detection Systems (IDS).
+The recent advances in Federated Learning (FL) and its promise of privacy-preserving information sharing have led to a renewed interest in the development of collaborative models for Intrusion Detection Systems (IDSs).
 However, its distributed nature makes FL vulnerable to malicious contributions from its participants, including data poisoning attacks.
-Label-flipping attacks---where the labels of a subset of the training data are flipped---have been overlooked in the context of IDSs that leverage FL primitives.
-This work contributes in closing this gap by providing a systematic and comprehensive overview of the impact of label-flipping attacks on Federated Intrusion Detection Systems (FIDS=).
+Label-flipping attacks — where the labels of a subset of the training data are flipped — have been overlooked in the context of IDSs that leverage FL primitives.
+This work contributes to closing this gap by providing a systematic and comprehensive overview of the impact of label-flipping attacks on Federated IDSs (FIDSs).
 We show that the effects of such attacks can range from severe to highly mitigated, depending on hyperparameters and dataset characteristics, and that their mitigation is non-trivial in heterogeneous settings.
-Furthermore, we provide a methodology and tools to extend our findings to other models and datasets, thus enabling the comparable evaluation of existing and future countermeasures.
+We discuss these findings in the context of existing literature and propose recommendations for the evaluation of FIDSs.
+Finally, we provide a methodology and tools to extend our findings to other models and datasets, thus enabling the comparable evaluation of existing and future countermeasures.
 
 
 ## Usage
