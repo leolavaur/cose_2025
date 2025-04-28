@@ -1,0 +1,9 @@
+- partitioner=iid
+- +datasets=nfv2/sampled/cicids
+- batch_size=512
+- +epochs=100/10x10
+- +distribution=9-1
+- +target=bruteforce
+- +scenario=continuous-99
+- seed=327
+- +callbacks=mattermost

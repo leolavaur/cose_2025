@@ -1,0 +1,26 @@
+experiment:
+  attacks:
+  - ${attack}
+  partitioner: 
+    attacker_target: ${experiment.attacks[0].target}
+    n_attackers: ${experiment.pools[0].n_malicious}
+  strategy:
+    _target_: exps.assessment_nb15.similarity.module.SaveFedAvg
+
+attack: null
+
+# ====
+
+hydra:
+  mode: MULTIRUN
+  sweeper:
+    params:
+      partitioner: iid_full,iid_drop_1,iid_drop_2,iid_keep_1,kmeans_full,kmeans_drop_1,kmeans_drop_2,kmeans_keep_1
+      +datasets: nfv2/sampled/nb15
+      batch_size: 512
+      +epochs: 100/10x10
+#      +distribution: 10-0,9-1,5-5
+      +distribution: 9-1
+      +target: glob(*,exclude=untargeted)
+      +scenario: continuous-100
+      seed: 1138,421,1313,5555,6567,327,2187,1977,501,3263827

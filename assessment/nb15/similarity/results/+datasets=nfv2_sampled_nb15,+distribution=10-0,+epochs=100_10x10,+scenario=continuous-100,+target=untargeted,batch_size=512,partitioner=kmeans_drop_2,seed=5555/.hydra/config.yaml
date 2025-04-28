@@ -1,0 +1,73 @@
+num_attackers: 0
+num_clients: 10
+num_rounds: 10
+num_epochs: 10
+batch_size: 512
+seed: 5555
+attacks:
+- type: ${poisoning.type}
+  profile: ${poisoning.profile}
+pools:
+- n_benign: ${num_clients}
+  n_malicious: ${num_attackers}
+experiment:
+  _target_: eiffel.core.experiment.Experiment
+  seed: ${seed}
+  num_rounds: 10
+  num_epochs: 10
+  batch_size: ${batch_size}
+  strategy:
+    _target_: exps.assessment_nb15.similarity.module.SaveFedAvg
+    initial_parameters: null
+    _partial_: true
+  model_fn: ${model}
+  partitioner:
+    _target_: exps.assessment.similarity.module.AttackPartitioner
+    _partial_: true
+    class_column: Attack
+    preserved_classes:
+    - Benign
+    - injection
+    n_drop: 2
+    seed: ${seed}
+    benign_strategy: kmeans
+    attacker_target: ${experiment.attacks[0].target}
+    n_attackers: ${experiment.pools[0].n_malicious}
+  pools:
+  - n_benign: 10
+    n_malicious: 0
+  attacks:
+  - ${attack}
+  datasets: '${oc.dict.values: datasets}'
+strategy:
+  _target_: flwr.server.strategy.fedavg.FedAvg
+  initial_parameters: null
+  _partial_: true
+model:
+  _target_: eiffel.models.supervized.mk_popoola_mlp
+  _partial_: true
+partitioner:
+  _target_: exps.assessment.similarity.module.AttackPartitioner
+  _partial_: true
+  class_column: Attack
+  preserved_classes:
+  - Benign
+  - injection
+  n_drop: 2
+  seed: ${seed}
+  benign_strategy: kmeans
+poisoning:
+  profile: '1.0'
+  type: untargeted
+attack:
+  type: untargeted
+  target: null
+  profile: '1.0'
+datasets:
+  nb15:
+    _target_: eiffel.datasets.nfv2.load_data
+    path: ${anchor:}/data/nfv2/sampled/nb15.csv.gz
+    key: nb15
+    _default_target:
+    - Analysis
+    seed: ${seed}

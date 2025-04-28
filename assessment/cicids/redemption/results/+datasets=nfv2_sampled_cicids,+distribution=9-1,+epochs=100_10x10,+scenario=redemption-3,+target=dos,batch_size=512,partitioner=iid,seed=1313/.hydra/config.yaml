@@ -1,0 +1,55 @@
+num_attackers: 0
+num_clients: 10
+num_rounds: 10
+num_epochs: 10
+batch_size: 512
+seed: 1313
+attacks:
+- type: ${poisoning.type}
+  profile: ${poisoning.profile}
+pools:
+- n_benign: ${num_clients}
+  n_malicious: ${num_attackers}
+experiment:
+  _target_: eiffel.core.experiment.Experiment
+  seed: ${seed}
+  num_rounds: 10
+  num_epochs: 10
+  batch_size: ${batch_size}
+  strategy: ${strategy}
+  model_fn: ${model}
+  partitioner: ${partitioner}
+  pools:
+  - n_benign: 9
+    n_malicious: 1
+  attacks:
+  - ${attack}
+  datasets: '${oc.dict.values: datasets}'
+strategy:
+  _target_: flwr.server.strategy.fedavg.FedAvg
+  initial_parameters: null
+  _partial_: true
+model:
+  _target_: eiffel.models.supervized.mk_popoola_mlp
+  _partial_: true
+partitioner:
+  _target_: eiffel.datasets.partitioners.IIDPartitioner
+  _partial_: true
+  class_column: Attack
+  seed: ${seed}
+poisoning:
+  profile: '1.0'
+  type: untargeted
+attack:
+  type: targeted
+  target:
+  - DoS
+  profile: 1.0-1.0{3}
+datasets:
+  cicids:
+    _target_: eiffel.datasets.nfv2.load_data
+    path: ${gitdir:}/data/nfv2/sampled/cicids.csv.gz
+    key: cicids
+    _default_target:
+    - DoS
+    seed: ${seed}

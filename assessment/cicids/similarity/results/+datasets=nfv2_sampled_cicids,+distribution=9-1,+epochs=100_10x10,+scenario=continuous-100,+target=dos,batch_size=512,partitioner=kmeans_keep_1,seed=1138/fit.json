@@ -1,0 +1,4022 @@
+{
+    "ktkexq_benign_0": {
+        "1": {
+            "DDoS": {
+                "recall": 0.01394842484860856,
+                "missrate": 0.9860515751513914
+            },
+            "Infilteration": {
+                "recall": 0.6734177215189874,
+                "missrate": 0.3265822784810127
+            },
+            "Brute Force": {
+                "recall": 0.977760736196319,
+                "missrate": 0.02223926380368098
+            },
+            "DoS": {
+                "recall": 0.9998025276461295,
+                "missrate": 0.00019747235387045813
+            },
+            "Bot": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "injection": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "global": {
+                "accuracy": 0.44847,
+                "precision": 0.07247364056391423,
+                "recall": 0.3097991222147198,
+                "f1": 0.11746727685857843,
+                "missrate": 0.6902008777852802,
+                "fallout": 0.53289205009529,
+                "loss": 0.7695001363754272
+            },
+            "fit": {
+                "test_loss": 0.7695001363754272,
+                "fit_accuracy": 0.9996150732040405,
+                "fit_loss": 0.00976068340241909
+            }
+        },
+        "2": {
+            "DDoS": {
+                "recall": 0.7898890930121794,
+                "missrate": 0.21011090698782064
+            },
+            "Infilteration": {
+                "recall": 0.07088607594936709,
+                "missrate": 0.9291139240506329
+            },
+            "Brute Force": {
+                "recall": 0.9961656441717791,
+                "missrate": 0.003834355828220859
+            },
+            "DoS": {
+                "recall": 0.9456951026856241,
+                "missrate": 0.05430489731437599
+            },
+            "Bot": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.90865,
+                "precision": 0.589989385697227,
+                "recall": 0.7506330182309251,
+                "f1": 0.6606864274570983,
+                "missrate": 0.24936698176907496,
+                "fallout": 0.07011185225519558,
+                "loss": 0.32278168201446533
+            },
+            "fit": {
+                "test_loss": 0.32278168201446533,
+                "fit_accuracy": 0.9999486804008484,
+                "fit_loss": 0.006853580940514803
+            }
+        },
+        "3": {
+            "DDoS": {
+                "recall": 0.9667959447506294,
+                "missrate": 0.03320405524937062
+            },
+            "Infilteration": {
+                "recall": 0.07088607594936709,
+                "missrate": 0.9291139240506329
+            },
+            "Brute Force": {
+                "recall": 0.9961656441717791,
+                "missrate": 0.003834355828220859
+            },
+            "DoS": {
+                "recall": 0.9449052132701422,
+                "missrate": 0.05509478672985782
+            },
+            "Bot": {
+                "recall": 0.05694444444444444,
+                "missrate": 0.9430555555555555
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.92682,
+                "precision": 0.6421399435205523,
+                "recall": 0.8636478730587441,
+                "f1": 0.736601518914444,
+                "missrate": 0.1363521269412559,
+                "fallout": 0.06468940012705326,
+                "loss": 0.24085570871829987
+            },
+            "fit": {
+                "test_loss": 0.24085570871829987,
+                "fit_accuracy": 0.9926089644432068,
+                "fit_loss": 0.011457416228950024
+            }
+        },
+        "4": {
+            "DDoS": {
+                "recall": 0.9667959447506294,
+                "missrate": 0.03320405524937062
+            },
+            "Infilteration": {
+                "recall": 0.04219409282700422,
+                "missrate": 0.9578059071729957
+            },
+            "Brute Force": {
+                "recall": 0.38190184049079756,
+                "missrate": 0.6180981595092024
+            },
+            "DoS": {
+                "recall": 0.9449052132701422,
+                "missrate": 0.05509478672985782
+            },
+            "Bot": {
+                "recall": 0.05694444444444444,
+                "missrate": 0.9430555555555555
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.944985,
+                "precision": 0.7388865886249859,
+                "recall": 0.8284098582039163,
+                "f1": 0.781091458926049,
+                "missrate": 0.17159014179608373,
+                "fallout": 0.03934681005535893,
+                "loss": 0.23256990313529968
+            },
+            "fit": {
+                "test_loss": 0.23256990313529968,
+                "fit_accuracy": 0.9915054440498352,
+                "fit_loss": 0.016856305301189423
+            }
+        },
+        "5": {
+            "DDoS": {
+                "recall": 0.9667959447506294,
+                "missrate": 0.03320405524937062
+            },
+            "Infilteration": {
+                "recall": 0.04050632911392405,
+                "missrate": 0.959493670886076
+            },
+            "Brute Force": {
+                "recall": 0.38190184049079756,
+                "missrate": 0.6180981595092024
+            },
+            "DoS": {
+                "recall": 0.943127962085308,
+                "missrate": 0.05687203791469194
+            },
+            "Bot": {
+                "recall": 0.05694444444444444,
+                "missrate": 0.9430555555555555
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.946925,
+                "precision": 0.7500477883549337,
+                "recall": 0.8279456448345712,
+                "f1": 0.7870739975528053,
+                "missrate": 0.17205435516542877,
+                "fallout": 0.037083673654596604,
+                "loss": 0.23281456530094147
+            },
+            "fit": {
+                "test_loss": 0.23281456530094147,
+                "fit_accuracy": 0.9915054440498352,
+                "fit_loss": 0.02068277820944786
+            }
+        },
+        "6": {
+            "DDoS": {
+                "recall": 0.9667959447506294,
+                "missrate": 0.03320405524937062
+            },
+            "Infilteration": {
+                "recall": 0.04219409282700422,
+                "missrate": 0.9578059071729957
+            },
+            "Brute Force": {
+                "recall": 0.38190184049079756,
+                "missrate": 0.6180981595092024
+            },
+            "DoS": {
+                "recall": 0.9142969984202212,
+                "missrate": 0.08570300157977884
+            },
+            "Bot": {
+                "recall": 0.05694444444444444,
+                "missrate": 0.9430555555555555
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.949535,
+                "precision": 0.7683355032153707,
+                "recall": 0.8218686698176908,
+                "f1": 0.7942010072793263,
+                "missrate": 0.17813133018230926,
+                "fallout": 0.03330610763227153,
+                "loss": 0.2390773445367813
+            },
+            "fit": {
+                "test_loss": 0.2390773445367813,
+                "fit_accuracy": 0.9915054440498352,
+                "fit_loss": 0.024828221648931503
+            }
+        },
+        "7": {
+            "DDoS": {
+                "recall": 0.9667959447506294,
+                "missrate": 0.03320405524937062
+            },
+            "Infilteration": {
+                "recall": 0.04050632911392405,
+                "missrate": 0.959493670886076
+            },
+            "Brute Force": {
+                "recall": 0.38190184049079756,
+                "missrate": 0.6180981595092024
+            },
+            "DoS": {
+                "recall": 0.8925750394944708,
+                "missrate": 0.10742496050552923
+            },
+            "Bot": {
+                "recall": 0.05694444444444444,
+                "missrate": 0.9430555555555555
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.9516,
+                "precision": 0.7836098745447188,
+                "recall": 0.8171421336934503,
+                "f1": 0.8000247903152502,
+                "missrate": 0.18285786630654963,
+                "fallout": 0.0303282965786369,
+                "loss": 0.24696937203407288
+            },
+            "fit": {
+                "test_loss": 0.24696937203407288,
+                "fit_accuracy": 0.991479754447937,
+                "fit_loss": 0.02768738940358162
+            }
+        },
+        "8": {
+            "DDoS": {
+                "recall": 0.9667959447506294,
+                "missrate": 0.03320405524937062
+            },
+            "Infilteration": {
+                "recall": 0.04219409282700422,
+                "missrate": 0.9578059071729957
+            },
+            "Brute Force": {
+                "recall": 0.38190184049079756,
+                "missrate": 0.6180981595092024
+            },
+            "DoS": {
+                "recall": 0.891390205371248,
+                "missrate": 0.10860979462875198
+            },
+            "Bot": {
+                "recall": 0.05694444444444444,
+                "missrate": 0.9430555555555555
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.951355,
+                "precision": 0.7821502161528827,
+                "recall": 0.8169733288318703,
+                "f1": 0.799182611926435,
+                "missrate": 0.18302667116812965,
+                "fallout": 0.030583537526091296,
+                "loss": 0.2586406171321869
+            },
+            "fit": {
+                "test_loss": 0.2586406171321869,
+                "fit_accuracy": 0.991479754447937,
+                "fit_loss": 0.02923809178173542
+            }
+        },
+        "9": {
+            "DDoS": {
+                "recall": 0.9667959447506294,
+                "missrate": 0.03320405524937062
+            },
+            "Infilteration": {
+                "recall": 0.04050632911392405,
+                "missrate": 0.959493670886076
+            },
+            "Brute Force": {
+                "recall": 0.38190184049079756,
+                "missrate": 0.6180981595092024
+            },
+            "DoS": {
+                "recall": 0.8923775671406003,
+                "missrate": 0.10762243285939968
+            },
+            "Bot": {
+                "recall": 0.05694444444444444,
+                "missrate": 0.9430555555555555
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.950835,
+                "precision": 0.7788101846265235,
+                "recall": 0.8170999324780553,
+                "f1": 0.7974957266717466,
+                "missrate": 0.18290006752194463,
+                "fallout": 0.031190443778927306,
+                "loss": 0.2652233839035034
+            },
+            "fit": {
+                "test_loss": 0.2652233839035034,
+                "fit_accuracy": 0.991479754447937,
+                "fit_loss": 0.027675263583660126
+            }
+        },
+        "10": {
+            "DDoS": {
+                "recall": 0.9667959447506294,
+                "missrate": 0.03320405524937062
+            },
+            "Infilteration": {
+                "recall": 0.046413502109704644,
+                "missrate": 0.9535864978902954
+            },
+            "Brute Force": {
+                "recall": 0.38190184049079756,
+                "missrate": 0.6180981595092024
+            },
+            "DoS": {
+                "recall": 0.8965244865718799,
+                "missrate": 0.10347551342812006
+            },
+            "Bot": {
+                "recall": 0.05694444444444444,
+                "missrate": 0.9430555555555555
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.948925,
+                "precision": 0.7664334558678209,
+                "recall": 0.8182815665091154,
+                "f1": 0.7915093376875192,
+                "missrate": 0.18171843349088454,
+                "fallout": 0.03351597241128959,
+                "loss": 0.27777528762817383
+            },
+            "fit": {
+                "test_loss": 0.27777528762817383,
+                "fit_accuracy": 0.991479754447937,
+                "fit_loss": 0.02426745556294918
+            }
+        }
+    },
+    "ktkexq_benign_4": {
+        "1": {
+            "DDoS": {
+                "recall": 0.007076274069538001,
+                "missrate": 0.992923725930462
+            },
+            "Infilteration": {
+                "recall": 0.7518987341772152,
+                "missrate": 0.2481012658227848
+            },
+            "Brute Force": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "injection": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "global": {
+                "accuracy": 0.45025,
+                "precision": 0.011275554145324327,
+                "recall": 0.04199020931802836,
+                "f1": 0.01777738073968197,
+                "missrate": 0.9580097906819717,
+                "fallout": 0.49487816498774845,
+                "loss": 0.8539283871650696
+            },
+            "fit": {
+                "test_loss": 0.8539283871650696,
+                "fit_accuracy": 0.9865366220474243,
+                "fit_loss": 0.11744888871908188
+            }
+        },
+        "2": {
+            "DDoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Infilteration": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Brute Force": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "injection": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "global": {
+                "accuracy": 0.88152,
+                "precision": 0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "missrate": 1.0,
+                "fallout": 0.0,
+                "loss": 0.43179765343666077
+            },
+            "fit": {
+                "test_loss": 0.43179765343666077,
+                "fit_accuracy": 0.9574522972106934,
+                "fit_loss": 0.13445354998111725
+            }
+        },
+        "3": {
+            "DDoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Infilteration": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Brute Force": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "injection": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "global": {
+                "accuracy": 0.88152,
+                "precision": 0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "missrate": 1.0,
+                "fallout": 0.0,
+                "loss": 0.3664748966693878
+            },
+            "fit": {
+                "test_loss": 0.3664748966693878,
+                "fit_accuracy": 0.9574522972106934,
+                "fit_loss": 0.2864956259727478
+            }
+        },
+        "4": {
+            "DDoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Infilteration": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Brute Force": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "injection": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "global": {
+                "accuracy": 0.88152,
+                "precision": 0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "missrate": 1.0,
+                "fallout": 0.0,
+                "loss": 0.401234894990921
+            },
+            "fit": {
+                "test_loss": 0.401234894990921,
+                "fit_accuracy": 0.9574522972106934,
+                "fit_loss": 0.4089023470878601
+            }
+        },
+        "5": {
+            "DDoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Infilteration": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Brute Force": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "injection": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "global": {
+                "accuracy": 0.88152,
+                "precision": 0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "missrate": 1.0,
+                "fallout": 0.0,
+                "loss": 0.43906369805336
+            },
+            "fit": {
+                "test_loss": 0.43906369805336,
+                "fit_accuracy": 0.9574522972106934,
+                "fit_loss": 0.5059962272644043
+            }
+        },
+        "6": {
+            "DDoS": {
+                "recall": 0.0012927808396271348,
+                "missrate": 0.9987072191603729
+            },
+            "Infilteration": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Brute Force": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "injection": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "global": {
+                "accuracy": 0.88161,
+                "precision": 0.95,
+                "recall": 0.0008018230925050642,
+                "f1": 0.0016022938100860179,
+                "missrate": 0.9991981769074949,
+                "fallout": 5.672021054542155e-06,
+                "loss": 0.4619777202606201
+            },
+            "fit": {
+                "test_loss": 0.4619777202606201,
+                "fit_accuracy": 0.9574522972106934,
+                "fit_loss": 0.5789918899536133
+            }
+        },
+        "7": {
+            "DDoS": {
+                "recall": 0.0013608219364496157,
+                "missrate": 0.9986391780635504
+            },
+            "Infilteration": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Brute Force": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "injection": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "global": {
+                "accuracy": 0.881615,
+                "precision": 0.9523809523809523,
+                "recall": 0.0008440243079000675,
+                "f1": 0.0016865539486444322,
+                "missrate": 0.9991559756920999,
+                "fallout": 5.672021054542155e-06,
+                "loss": 0.4943475127220154
+            },
+            "fit": {
+                "test_loss": 0.4943475127220154,
+                "fit_accuracy": 0.9574522972106934,
+                "fit_loss": 0.6415478587150574
+            }
+        },
+        "8": {
+            "DDoS": {
+                "recall": 0.0013608219364496157,
+                "missrate": 0.9986391780635504
+            },
+            "Infilteration": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Brute Force": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "injection": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "global": {
+                "accuracy": 0.88161,
+                "precision": 0.9090909090909091,
+                "recall": 0.0008440243079000675,
+                "f1": 0.0016864828400371026,
+                "missrate": 0.9991559756920999,
+                "fallout": 1.134404210908431e-05,
+                "loss": 0.5116050839424133
+            },
+            "fit": {
+                "test_loss": 0.5116050839424133,
+                "fit_accuracy": 0.9571934342384338,
+                "fit_loss": 0.6871988773345947
+            }
+        },
+        "9": {
+            "DDoS": {
+                "recall": 0.0013608219364496157,
+                "missrate": 0.9986391780635504
+            },
+            "Infilteration": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Brute Force": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "injection": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "global": {
+                "accuracy": 0.88156,
+                "precision": 0.625,
+                "recall": 0.0008440243079000675,
+                "f1": 0.0016857720836142953,
+                "missrate": 0.9991559756920999,
+                "fallout": 6.806425265450586e-05,
+                "loss": 0.5096641182899475
+            },
+            "fit": {
+                "test_loss": 0.5096641182899475,
+                "fit_accuracy": 0.9570208191871643,
+                "fit_loss": 0.7177743911743164
+            }
+        },
+        "10": {
+            "DDoS": {
+                "recall": 0.0014969041300945771,
+                "missrate": 0.9985030958699054
+            },
+            "Infilteration": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Brute Force": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "injection": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "global": {
+                "accuracy": 0.88151,
+                "precision": 0.4782608695652174,
+                "recall": 0.0009284267386900743,
+                "f1": 0.0018532558335439305,
+                "missrate": 0.9990715732613099,
+                "fallout": 0.0001361285053090117,
+                "loss": 0.5169754028320312
+            },
+            "fit": {
+                "test_loss": 0.5169754028320312,
+                "fit_accuracy": 0.9570208191871643,
+                "fit_loss": 0.7483941912651062
+            }
+        }
+    },
+    "ktkexq_benign_2": {
+        "1": {
+            "DDoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Infilteration": {
+                "recall": 0.0033755274261603376,
+                "missrate": 0.9966244725738397
+            },
+            "Brute Force": {
+                "recall": 0.13190184049079753,
+                "missrate": 0.8680981595092024
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "injection": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "global": {
+                "accuracy": 0.88084,
+                "precision": 0.36065573770491804,
+                "recall": 0.007427413909520594,
+                "f1": 0.014555077737347006,
+                "missrate": 0.9925725860904794,
+                "fallout": 0.0017696705690171523,
+                "loss": 0.429127961397171
+            },
+            "fit": {
+                "test_loss": 0.429127961397171,
+                "fit_accuracy": 0.9947599172592163,
+                "fit_loss": 0.012656458653509617
+            }
+        },
+        "2": {
+            "DDoS": {
+                "recall": 0.7760087092603932,
+                "missrate": 0.22399129073960672
+            },
+            "Infilteration": {
+                "recall": 0.0008438818565400844,
+                "missrate": 0.99915611814346
+            },
+            "Brute Force": {
+                "recall": 0.15184049079754602,
+                "missrate": 0.848159509202454
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.93731,
+                "precision": 0.9625269441220361,
+                "recall": 0.4899561107359892,
+                "f1": 0.6493651770233234,
+                "missrate": 0.5100438892640108,
+                "fallout": 0.002563753516653054,
+                "loss": 0.26999059319496155
+            },
+            "fit": {
+                "test_loss": 0.26999059319496155,
+                "fit_accuracy": 0.9947705864906311,
+                "fit_loss": 0.00943687092512846
+            }
+        },
+        "3": {
+            "DDoS": {
+                "recall": 0.7760087092603932,
+                "missrate": 0.22399129073960672
+            },
+            "Infilteration": {
+                "recall": 0.002531645569620253,
+                "missrate": 0.9974683544303797
+            },
+            "Brute Force": {
+                "recall": 0.15107361963190183,
+                "missrate": 0.8489263803680982
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.936805,
+                "precision": 0.9544595150020551,
+                "recall": 0.4899983119513842,
+                "f1": 0.6475558406067873,
+                "missrate": 0.5100016880486158,
+                "fallout": 0.0031422996642163537,
+                "loss": 0.23988990485668182
+            },
+            "fit": {
+                "test_loss": 0.23988990485668182,
+                "fit_accuracy": 0.9949413537979126,
+                "fit_loss": 0.00985801126807928
+            }
+        },
+        "4": {
+            "DDoS": {
+                "recall": 0.7760767503572158,
+                "missrate": 0.22392324964278423
+            },
+            "Infilteration": {
+                "recall": 0.002531645569620253,
+                "missrate": 0.9974683544303797
+            },
+            "Brute Force": {
+                "recall": 0.15030674846625766,
+                "missrate": 0.8496932515337423
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 0.002777777777777778,
+                "missrate": 0.9972222222222222
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.93391,
+                "precision": 0.9108375156838143,
+                "recall": 0.4901671168129642,
+                "f1": 0.637346356453029,
+                "missrate": 0.5098328831870358,
+                "fallout": 0.00644908793901443,
+                "loss": 0.23810608685016632
+            },
+            "fit": {
+                "test_loss": 0.23810608685016632,
+                "fit_accuracy": 0.9949306845664978,
+                "fit_loss": 0.009500029496848583
+            }
+        },
+        "5": {
+            "DDoS": {
+                "recall": 0.7761447914540383,
+                "missrate": 0.22385520854596175
+            },
+            "Infilteration": {
+                "recall": 0.031223628691983123,
+                "missrate": 0.9687763713080169
+            },
+            "Brute Force": {
+                "recall": 0.7630368098159509,
+                "missrate": 0.23696319018404907
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.908115,
+                "precision": 0.6184579751458732,
+                "recall": 0.5859638757596218,
+                "f1": 0.6017725962684465,
+                "missrate": 0.4140361242403781,
+                "fallout": 0.048586532353208096,
+                "loss": 0.29091575741767883
+            },
+            "fit": {
+                "test_loss": 0.29091575741767883,
+                "fit_accuracy": 0.995667040348053,
+                "fit_loss": 0.00806343276053667
+            }
+        },
+        "6": {
+            "DDoS": {
+                "recall": 0.954004218548003,
+                "missrate": 0.04599578145199701
+            },
+            "Infilteration": {
+                "recall": 0.05569620253164557,
+                "missrate": 0.9443037974683545
+            },
+            "Brute Force": {
+                "recall": 0.7638036809815951,
+                "missrate": 0.2361963190184049
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.86918,
+                "precision": 0.4652648764285312,
+                "recall": 0.6975438892640108,
+                "f1": 0.5582047212184661,
+                "missrate": 0.3024561107359892,
+                "fallout": 0.10775138397313731,
+                "loss": 0.4101520776748657
+            },
+            "fit": {
+                "test_loss": 0.4101520776748657,
+                "fit_accuracy": 0.9981963634490967,
+                "fit_loss": 0.006795827299356461
+            }
+        },
+        "7": {
+            "DDoS": {
+                "recall": 0.9803361230183031,
+                "missrate": 0.019663876981696946
+            },
+            "Infilteration": {
+                "recall": 0.07848101265822785,
+                "missrate": 0.9215189873417722
+            },
+            "Brute Force": {
+                "recall": 0.7668711656441718,
+                "missrate": 0.2331288343558282
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.851325,
+                "precision": 0.42438584629254,
+                "recall": 0.7151839972991222,
+                "f1": 0.5326816388753556,
+                "missrate": 0.2848160027008778,
+                "fallout": 0.13037707595970596,
+                "loss": 0.5374441742897034
+            },
+            "fit": {
+                "test_loss": 0.5374441742897034,
+                "fit_accuracy": 0.9982390999794006,
+                "fit_loss": 0.0057298410683870316
+            }
+        },
+        "8": {
+            "DDoS": {
+                "recall": 0.9804041641151255,
+                "missrate": 0.019595835884874464
+            },
+            "Infilteration": {
+                "recall": 0.09620253164556962,
+                "missrate": 0.9037974683544304
+            },
+            "Brute Force": {
+                "recall": 0.7668711656441718,
+                "missrate": 0.2331288343558282
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.83942,
+                "precision": 0.4006090939137825,
+                "recall": 0.7161124240378123,
+                "f1": 0.5137917461470918,
+                "missrate": 0.2838875759621877,
+                "fallout": 0.14400694255377075,
+                "loss": 0.6048107147216797
+            },
+            "fit": {
+                "test_loss": 0.6048107147216797,
+                "fit_accuracy": 0.9982497692108154,
+                "fit_loss": 0.004944588989019394
+            }
+        },
+        "9": {
+            "DDoS": {
+                "recall": 0.9804041641151255,
+                "missrate": 0.019595835884874464
+            },
+            "Infilteration": {
+                "recall": 0.08270042194092828,
+                "missrate": 0.9172995780590717
+            },
+            "Brute Force": {
+                "recall": 0.7668711656441718,
+                "missrate": 0.2331288343558282
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.84629,
+                "precision": 0.4139724555577261,
+                "recall": 0.7154372045914922,
+                "f1": 0.5244709813141938,
+                "missrate": 0.28456279540850776,
+                "fallout": 0.13612283328795716,
+                "loss": 0.6236243844032288
+            },
+            "fit": {
+                "test_loss": 0.6236243844032288,
+                "fit_accuracy": 0.9982390999794006,
+                "fit_loss": 0.004451599903404713
+            }
+        },
+        "10": {
+            "DDoS": {
+                "recall": 0.9804041641151255,
+                "missrate": 0.019595835884874464
+            },
+            "Infilteration": {
+                "recall": 0.0759493670886076,
+                "missrate": 0.9240506329113924
+            },
+            "Brute Force": {
+                "recall": 0.7668711656441718,
+                "missrate": 0.2331288343558282
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.847035,
+                "precision": 0.4154510015446098,
+                "recall": 0.7150995948683322,
+                "f1": 0.5255648775646294,
+                "missrate": 0.2849004051316678,
+                "fallout": 0.13523232598239404,
+                "loss": 0.6107890009880066
+            },
+            "fit": {
+                "test_loss": 0.6107890009880066,
+                "fit_accuracy": 0.9982497692108154,
+                "fit_loss": 0.004137574229389429
+            }
+        }
+    },
+    "ktkexq_benign_6": {
+        "1": {
+            "DDoS": {
+                "recall": 0.9929917670272845,
+                "missrate": 0.00700823297271552
+            },
+            "Infilteration": {
+                "recall": 0.26244725738396624,
+                "missrate": 0.7375527426160338
+            },
+            "Brute Force": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "DoS": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.5432,
+                "precision": 0.20087177945571255,
+                "recall": 0.9587694125590817,
+                "f1": 0.33215397885934006,
+                "missrate": 0.0412305874409183,
+                "fallout": 0.5126542789726836,
+                "loss": 3.7066638469696045
+            },
+            "fit": {
+                "test_loss": 3.7066638469696045,
+                "fit_accuracy": 1.0,
+                "fit_loss": 0.0001919423957588151
+            }
+        },
+        "2": {
+            "DDoS": {
+                "recall": 0.9929917670272845,
+                "missrate": 0.00700823297271552
+            },
+            "Infilteration": {
+                "recall": 0.23628691983122363,
+                "missrate": 0.7637130801687764
+            },
+            "Brute Force": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "DoS": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.557095,
+                "precision": 0.20576631809978144,
+                "recall": 0.9574611748818366,
+                "f1": 0.33873556439753055,
+                "missrate": 0.042538825118163405,
+                "fallout": 0.4967158998094201,
+                "loss": 3.9437077045440674
+            },
+            "fit": {
+                "test_loss": 3.9437077045440674,
+                "fit_accuracy": 0.999993085861206,
+                "fit_loss": 2.189157748944126e-05
+            }
+        },
+        "3": {
+            "DDoS": {
+                "recall": 0.9929917670272845,
+                "missrate": 0.00700823297271552
+            },
+            "Infilteration": {
+                "recall": 0.2379746835443038,
+                "missrate": 0.7620253164556962
+            },
+            "Brute Force": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "DoS": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.55201,
+                "precision": 0.20389640732553332,
+                "recall": 0.9575455773126266,
+                "f1": 0.33620293677488183,
+                "missrate": 0.04245442268737339,
+                "fallout": 0.5024956892639986,
+                "loss": 4.108065128326416
+            },
+            "fit": {
+                "test_loss": 4.108065128326416,
+                "fit_accuracy": 1.0,
+                "fit_loss": 4.45500654677744e-06
+            }
+        },
+        "4": {
+            "DDoS": {
+                "recall": 0.9929917670272845,
+                "missrate": 0.00700823297271552
+            },
+            "Infilteration": {
+                "recall": 0.24135021097046414,
+                "missrate": 0.7586497890295358
+            },
+            "Brute Force": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "DoS": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.549435,
+                "precision": 0.20297839989267027,
+                "recall": 0.9577143821742066,
+                "f1": 0.33496431760651213,
+                "missrate": 0.04228561782579338,
+                "fallout": 0.5054394681913059,
+                "loss": 4.342252254486084
+            },
+            "fit": {
+                "test_loss": 4.342252254486084,
+                "fit_accuracy": 1.0,
+                "fit_loss": 1.9304488887428306e-06
+            }
+        },
+        "5": {
+            "DDoS": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "Infilteration": {
+                "recall": 0.24556962025316456,
+                "missrate": 0.7544303797468355
+            },
+            "Brute Force": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "DoS": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.55121,
+                "precision": 0.2041982340193076,
+                "recall": 0.962272113436867,
+                "f1": 0.33690400555547345,
+                "missrate": 0.03772788656313302,
+                "fallout": 0.504038478990834,
+                "loss": 4.382133960723877
+            },
+            "fit": {
+                "test_loss": 4.382133960723877,
+                "fit_accuracy": 1.0,
+                "fit_loss": 1.2726505929094856e-06
+            }
+        },
+        "6": {
+            "DDoS": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "Infilteration": {
+                "recall": 0.24725738396624472,
+                "missrate": 0.7527426160337553
+            },
+            "Brute Force": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "DoS": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.558905,
+                "precision": 0.20706249829748208,
+                "recall": 0.962356515867657,
+                "f1": 0.3407981946841818,
+                "missrate": 0.03764348413234301,
+                "fallout": 0.4953205826300027,
+                "loss": 4.331830978393555
+            },
+            "fit": {
+                "test_loss": 4.331830978393555,
+                "fit_accuracy": 1.0,
+                "fit_loss": 1.0526684945943998e-06
+            }
+        },
+        "7": {
+            "DDoS": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "Infilteration": {
+                "recall": 0.24472573839662448,
+                "missrate": 0.7552742616033755
+            },
+            "Brute Force": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "DoS": {
+                "recall": 0.9998025276461295,
+                "missrate": 0.00019747235387045813
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.562245,
+                "precision": 0.2083047827874469,
+                "recall": 0.962187711006077,
+                "f1": 0.3424683254350324,
+                "missrate": 0.03781228899392303,
+                "fallout": 0.4915089844813504,
+                "loss": 4.164932727813721
+            },
+            "fit": {
+                "test_loss": 4.164932727813721,
+                "fit_accuracy": 1.0,
+                "fit_loss": 1.0017186014010804e-06
+            }
+        },
+        "8": {
+            "DDoS": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "Infilteration": {
+                "recall": 0.40421940928270045,
+                "missrate": 0.5957805907172996
+            },
+            "Brute Force": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "DoS": {
+                "recall": 0.9998025276461295,
+                "missrate": 0.00019747235387045813
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.565135,
+                "precision": 0.21041599926776808,
+                "recall": 0.9701637407157326,
+                "f1": 0.3458266579416477,
+                "missrate": 0.029836259284267388,
+                "fallout": 0.4893025682911335,
+                "loss": 4.067811489105225
+            },
+            "fit": {
+                "test_loss": 4.067811489105225,
+                "fit_accuracy": 1.0,
+                "fit_loss": 8.57832901601796e-07
+            }
+        },
+        "9": {
+            "DDoS": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "Infilteration": {
+                "recall": 0.40337552742616034,
+                "missrate": 0.5966244725738397
+            },
+            "Brute Force": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "DoS": {
+                "recall": 0.9986176935229067,
+                "missrate": 0.001382306477093207
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.54075,
+                "precision": 0.20138803694421564,
+                "recall": 0.9698683322079676,
+                "f1": 0.3335219934114096,
+                "missrate": 0.03013166779203241,
+                "fallout": 0.5169253108267537,
+                "loss": 3.859353542327881
+            },
+            "fit": {
+                "test_loss": 3.859353542327881,
+                "fit_accuracy": 1.0,
+                "fit_loss": 7.782082889207231e-07
+            }
+        },
+        "10": {
+            "DDoS": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "Infilteration": {
+                "recall": 0.4008438818565401,
+                "missrate": 0.5991561181434599
+            },
+            "Brute Force": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "DoS": {
+                "recall": 0.993088467614534,
+                "missrate": 0.006911532385466035
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.540705,
+                "precision": 0.20120983649673432,
+                "recall": 0.9685600945307224,
+                "f1": 0.33320025261140673,
+                "missrate": 0.03143990546927752,
+                "fallout": 0.5168005263635539,
+                "loss": 3.8153438568115234
+            },
+            "fit": {
+                "test_loss": 3.8153438568115234,
+                "fit_accuracy": 1.0,
+                "fit_loss": 5.811829737467633e-07
+            }
+        }
+    },
+    "ktkexq_benign_8": {
+        "1": {
+            "DDoS": {
+                "recall": 0.992923725930462,
+                "missrate": 0.007076274069538001
+            },
+            "Infilteration": {
+                "recall": 0.13839662447257384,
+                "missrate": 0.8616033755274262
+            },
+            "Brute Force": {
+                "recall": 0.02223926380368098,
+                "missrate": 0.977760736196319
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.730625,
+                "precision": 0.2591191354181632,
+                "recall": 0.6850101282916948,
+                "f1": 0.3760062080867279,
+                "missrate": 0.3149898717083052,
+                "fallout": 0.26324416916235593,
+                "loss": 1.3322057723999023
+            },
+            "fit": {
+                "test_loss": 1.3322057723999023,
+                "fit_accuracy": 0.9997624754905701,
+                "fit_loss": 0.0018426316091790795
+            }
+        },
+        "2": {
+            "DDoS": {
+                "recall": 0.992923725930462,
+                "missrate": 0.007076274069538001
+            },
+            "Infilteration": {
+                "recall": 0.13839662447257384,
+                "missrate": 0.8616033755274262
+            },
+            "Brute Force": {
+                "recall": 0.02223926380368098,
+                "missrate": 0.977760736196319
+            },
+            "DoS": {
+                "recall": 0.00019747235387045813,
+                "missrate": 0.9998025276461295
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.73039,
+                "precision": 0.25893255917820457,
+                "recall": 0.6850523295070898,
+                "f1": 0.3758160855674399,
+                "missrate": 0.31494767049291017,
+                "fallout": 0.26351642617297394,
+                "loss": 1.5085570812225342
+            },
+            "fit": {
+                "test_loss": 1.5085570812225342,
+                "fit_accuracy": 0.9997624754905701,
+                "fit_loss": 0.001742041320540011
+            }
+        },
+        "3": {
+            "DDoS": {
+                "recall": 0.992923725930462,
+                "missrate": 0.007076274069538001
+            },
+            "Infilteration": {
+                "recall": 0.14177215189873418,
+                "missrate": 0.8582278481012658
+            },
+            "Brute Force": {
+                "recall": 0.02223926380368098,
+                "missrate": 0.977760736196319
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.728855,
+                "precision": 0.2576938338227125,
+                "recall": 0.6851789331532748,
+                "f1": 0.37452855215049424,
+                "missrate": 0.3148210668467252,
+                "fallout": 0.26527475269988204,
+                "loss": 2.1779773235321045
+            },
+            "fit": {
+                "test_loss": 2.1779773235321045,
+                "fit_accuracy": 0.9997624754905701,
+                "fit_loss": 0.0014348500408232212
+            }
+        },
+        "4": {
+            "DDoS": {
+                "recall": 0.9928556848336395,
+                "missrate": 0.007144315166360482
+            },
+            "Infilteration": {
+                "recall": 0.13924050632911392,
+                "missrate": 0.8607594936708861
+            },
+            "Brute Force": {
+                "recall": 0.02223926380368098,
+                "missrate": 0.977760736196319
+            },
+            "DoS": {
+                "recall": 0.00019747235387045813,
+                "missrate": 0.9998025276461295
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.734455,
+                "precision": 0.2623345561499055,
+                "recall": 0.6850523295070898,
+                "f1": 0.37938650306748467,
+                "missrate": 0.31494767049291017,
+                "fallout": 0.2589050730556312,
+                "loss": 2.377094030380249
+            },
+            "fit": {
+                "test_loss": 2.377094030380249,
+                "fit_accuracy": 0.9997496604919434,
+                "fit_loss": 0.0012179964687675238
+            }
+        },
+        "5": {
+            "DDoS": {
+                "recall": 0.9928556848336395,
+                "missrate": 0.007144315166360482
+            },
+            "Infilteration": {
+                "recall": 0.13755274261603376,
+                "missrate": 0.8624472573839662
+            },
+            "Brute Force": {
+                "recall": 0.02223926380368098,
+                "missrate": 0.977760736196319
+            },
+            "DoS": {
+                "recall": 0.00019747235387045813,
+                "missrate": 0.9998025276461295
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.743025,
+                "precision": 0.2697927228603248,
+                "recall": 0.6849679270762998,
+                "f1": 0.38711139201259287,
+                "missrate": 0.3150320729237002,
+                "fallout": 0.24917188492603684,
+                "loss": 2.4177253246307373
+            },
+            "fit": {
+                "test_loss": 2.4177253246307373,
+                "fit_accuracy": 0.9997432231903076,
+                "fit_loss": 0.001042987685650587
+            }
+        },
+        "6": {
+            "DDoS": {
+                "recall": 0.9928556848336395,
+                "missrate": 0.007144315166360482
+            },
+            "Infilteration": {
+                "recall": 0.13248945147679325,
+                "missrate": 0.8675105485232067
+            },
+            "Brute Force": {
+                "recall": 0.02223926380368098,
+                "missrate": 0.977760736196319
+            },
+            "DoS": {
+                "recall": 0.00019747235387045813,
+                "missrate": 0.9998025276461295
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.75227,
+                "precision": 0.2783018867924528,
+                "recall": 0.6847147197839297,
+                "f1": 0.3957510122444997,
+                "missrate": 0.3152852802160702,
+                "fallout": 0.23865028586986115,
+                "loss": 2.3949241638183594
+            },
+            "fit": {
+                "test_loss": 2.3949241638183594,
+                "fit_accuracy": 0.9997432231903076,
+                "fit_loss": 0.0008941249107010663
+            }
+        },
+        "7": {
+            "DDoS": {
+                "recall": 0.9928556848336395,
+                "missrate": 0.007144315166360482
+            },
+            "Infilteration": {
+                "recall": 0.13164556962025317,
+                "missrate": 0.8683544303797468
+            },
+            "Brute Force": {
+                "recall": 0.02223926380368098,
+                "missrate": 0.977760736196319
+            },
+            "DoS": {
+                "recall": 0.00019747235387045813,
+                "missrate": 0.9998025276461295
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.7536,
+                "precision": 0.27956989247311825,
+                "recall": 0.6846725185685347,
+                "f1": 0.3970242756460454,
+                "missrate": 0.3153274814314652,
+                "fallout": 0.2371358562482984,
+                "loss": 2.305867910385132
+            },
+            "fit": {
+                "test_loss": 2.305867910385132,
+                "fit_accuracy": 0.9997432231903076,
+                "fit_loss": 0.0007975522894412279
+            }
+        },
+        "8": {
+            "DDoS": {
+                "recall": 0.992923725930462,
+                "missrate": 0.007076274069538001
+            },
+            "Infilteration": {
+                "recall": 0.13164556962025317,
+                "missrate": 0.8683544303797468
+            },
+            "Brute Force": {
+                "recall": 0.02223926380368098,
+                "missrate": 0.977760736196319
+            },
+            "DoS": {
+                "recall": 0.00019747235387045813,
+                "missrate": 0.9998025276461295
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.75351,
+                "precision": 0.27949080135051335,
+                "recall": 0.6847147197839297,
+                "f1": 0.3969516073787738,
+                "missrate": 0.3152852802160702,
+                "fallout": 0.2372436246483347,
+                "loss": 2.1929969787597656
+            },
+            "fit": {
+                "test_loss": 2.1929969787597656,
+                "fit_accuracy": 0.9997432231903076,
+                "fit_loss": 0.0007409628597088158
+            }
+        },
+        "9": {
+            "DDoS": {
+                "recall": 0.992923725930462,
+                "missrate": 0.007076274069538001
+            },
+            "Infilteration": {
+                "recall": 0.13164556962025317,
+                "missrate": 0.8683544303797468
+            },
+            "Brute Force": {
+                "recall": 0.02223926380368098,
+                "missrate": 0.977760736196319
+            },
+            "DoS": {
+                "recall": 0.00019747235387045813,
+                "missrate": 0.9998025276461295
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.75351,
+                "precision": 0.27949080135051335,
+                "recall": 0.6847147197839297,
+                "f1": 0.3969516073787738,
+                "missrate": 0.3152852802160702,
+                "fallout": 0.2372436246483347,
+                "loss": 2.1109848022460938
+            },
+            "fit": {
+                "test_loss": 2.1109848022460938,
+                "fit_accuracy": 0.9997432231903076,
+                "fit_loss": 0.0006961342296563089
+            }
+        },
+        "10": {
+            "DDoS": {
+                "recall": 0.992923725930462,
+                "missrate": 0.007076274069538001
+            },
+            "Infilteration": {
+                "recall": 0.1308016877637131,
+                "missrate": 0.869198312236287
+            },
+            "Brute Force": {
+                "recall": 0.026840490797546013,
+                "missrate": 0.973159509202454
+            },
+            "DoS": {
+                "recall": 0.00019747235387045813,
+                "missrate": 0.9998025276461295
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.754115,
+                "precision": 0.2801125282615074,
+                "recall": 0.6849257258609048,
+                "f1": 0.39761382706370885,
+                "missrate": 0.3150742741390952,
+                "fallout": 0.2365856702060078,
+                "loss": 2.0417799949645996
+            },
+            "fit": {
+                "test_loss": 2.0417799949645996,
+                "fit_accuracy": 0.9997432231903076,
+                "fit_loss": 0.0006697161006741226
+            }
+        }
+    },
+    "ktkexq_malicious_0": {
+        "1": {
+            "DDoS": {
+                "recall": 0.7970334081785398,
+                "missrate": 0.20296659182146015
+            },
+            "Infilteration": {
+                "recall": 0.8632911392405064,
+                "missrate": 0.13670886075949368
+            },
+            "Brute Force": {
+                "recall": 0.9969325153374233,
+                "missrate": 0.003067484662576687
+            },
+            "DoS": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "Bot": {
+                "recall": 0.05694444444444444,
+                "missrate": 0.9430555555555555
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.370825,
+                "precision": 0.13655998918280352,
+                "recall": 0.8097991222147198,
+                "f1": 0.23370865887597206,
+                "missrate": 0.19020087778528022,
+                "fallout": 0.6881749705054905,
+                "loss": 1.5921860933303833
+            },
+            "fit": {
+                "test_loss": 1.5921860933303833,
+                "fit_accuracy": 0.9999796152114868,
+                "fit_loss": 0.0005812097224406898
+            }
+        },
+        "2": {
+            "DDoS": {
+                "recall": 0.7900251752058243,
+                "missrate": 0.20997482479417567
+            },
+            "Infilteration": {
+                "recall": 0.16877637130801687,
+                "missrate": 0.8312236286919831
+            },
+            "Brute Force": {
+                "recall": 0.9969325153374233,
+                "missrate": 0.003067484662576687
+            },
+            "DoS": {
+                "recall": 0.9998025276461295,
+                "missrate": 0.00019747235387045813
+            },
+            "Bot": {
+                "recall": 0.05694444444444444,
+                "missrate": 0.9430555555555555
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.76047,
+                "precision": 0.30068824711035,
+                "recall": 0.7706785955435517,
+                "f1": 0.4325950491531446,
+                "missrate": 0.22932140445644836,
+                "fallout": 0.2409020782285144,
+                "loss": 0.58184415102005
+            },
+            "fit": {
+                "test_loss": 0.58184415102005,
+                "fit_accuracy": 0.9999796152114868,
+                "fit_loss": 0.0005456247017718852
+            }
+        },
+        "3": {
+            "DDoS": {
+                "recall": 0.9667959447506294,
+                "missrate": 0.03320405524937062
+            },
+            "Infilteration": {
+                "recall": 0.1029535864978903,
+                "missrate": 0.8970464135021097
+            },
+            "Brute Force": {
+                "recall": 0.9969325153374233,
+                "missrate": 0.003067484662576687
+            },
+            "DoS": {
+                "recall": 0.9492496050552922,
+                "missrate": 0.05075039494470774
+            },
+            "Bot": {
+                "recall": 0.05694444444444444,
+                "missrate": 0.9430555555555555
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.875325,
+                "precision": 0.48535149322550897,
+                "recall": 0.8662221471978393,
+                "f1": 0.6221225392880416,
+                "missrate": 0.1337778528021607,
+                "fallout": 0.12345153825210999,
+                "loss": 0.39257973432540894
+            },
+            "fit": {
+                "test_loss": 0.39257973432540894,
+                "fit_accuracy": 0.9999694228172302,
+                "fit_loss": 0.0006522655603475869
+            }
+        },
+        "4": {
+            "DDoS": {
+                "recall": 0.9667959447506294,
+                "missrate": 0.03320405524937062
+            },
+            "Infilteration": {
+                "recall": 0.07341772151898734,
+                "missrate": 0.9265822784810127
+            },
+            "Brute Force": {
+                "recall": 0.9969325153374233,
+                "missrate": 0.003067484662576687
+            },
+            "DoS": {
+                "recall": 0.9449052132701422,
+                "missrate": 0.05509478672985782
+            },
+            "Bot": {
+                "recall": 0.05694444444444444,
+                "missrate": 0.9430555555555555
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.90676,
+                "precision": 0.570325996099192,
+                "recall": 0.8638166779203241,
+                "f1": 0.6870405800020138,
+                "missrate": 0.1361833220796759,
+                "fallout": 0.08746823668209457,
+                "loss": 0.3371521234512329
+            },
+            "fit": {
+                "test_loss": 0.3371521234512329,
+                "fit_accuracy": 0.9999694228172302,
+                "fit_loss": 0.0009591929847374558
+            }
+        },
+        "5": {
+            "DDoS": {
+                "recall": 0.9667959447506294,
+                "missrate": 0.03320405524937062
+            },
+            "Infilteration": {
+                "recall": 0.070042194092827,
+                "missrate": 0.929957805907173
+            },
+            "Brute Force": {
+                "recall": 0.9969325153374233,
+                "missrate": 0.003067484662576687
+            },
+            "DoS": {
+                "recall": 0.9449052132701422,
+                "missrate": 0.05509478672985782
+            },
+            "Bot": {
+                "recall": 0.05694444444444444,
+                "missrate": 0.9430555555555555
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.921025,
+                "precision": 0.6196070120197402,
+                "recall": 0.8636478730587441,
+                "f1": 0.7215513442044954,
+                "missrate": 0.1363521269412559,
+                "fallout": 0.07126327252926763,
+                "loss": 0.3274346590042114
+            },
+            "fit": {
+                "test_loss": 0.3274346590042114,
+                "fit_accuracy": 0.9999694228172302,
+                "fit_loss": 0.0011769038392230868
+            }
+        },
+        "6": {
+            "DDoS": {
+                "recall": 0.9667959447506294,
+                "missrate": 0.03320405524937062
+            },
+            "Infilteration": {
+                "recall": 0.06919831223628692,
+                "missrate": 0.9308016877637131
+            },
+            "Brute Force": {
+                "recall": 0.9969325153374233,
+                "missrate": 0.003067484662576687
+            },
+            "DoS": {
+                "recall": 0.9449052132701422,
+                "missrate": 0.05509478672985782
+            },
+            "Bot": {
+                "recall": 0.05694444444444444,
+                "missrate": 0.9430555555555555
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.92903,
+                "precision": 0.651180551136002,
+                "recall": 0.8636056718433491,
+                "f1": 0.7424984579659664,
+                "missrate": 0.13639432815665092,
+                "fallout": 0.062176694799891095,
+                "loss": 0.33215078711509705
+            },
+            "fit": {
+                "test_loss": 0.33215078711509705,
+                "fit_accuracy": 0.9999694228172302,
+                "fit_loss": 0.0012037133565172553
+            }
+        },
+        "7": {
+            "DDoS": {
+                "recall": 0.9667959447506294,
+                "missrate": 0.03320405524937062
+            },
+            "Infilteration": {
+                "recall": 0.07257383966244725,
+                "missrate": 0.9274261603375528
+            },
+            "Brute Force": {
+                "recall": 0.9969325153374233,
+                "missrate": 0.003067484662576687
+            },
+            "DoS": {
+                "recall": 0.9372037914691943,
+                "missrate": 0.06279620853080568
+            },
+            "Bot": {
+                "recall": 0.05694444444444444,
+                "missrate": 0.9430555555555555
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.93113,
+                "precision": 0.6603633307473493,
+                "recall": 0.8621286293045239,
+                "f1": 0.7478767022990189,
+                "missrate": 0.13787137069547603,
+                "fallout": 0.05959592522007442,
+                "loss": 0.34585726261138916
+            },
+            "fit": {
+                "test_loss": 0.34585726261138916,
+                "fit_accuracy": 0.9999694228172302,
+                "fit_loss": 0.0011132623767480254
+            }
+        },
+        "8": {
+            "DDoS": {
+                "recall": 0.9667959447506294,
+                "missrate": 0.03320405524937062
+            },
+            "Infilteration": {
+                "recall": 0.07426160337552742,
+                "missrate": 0.9257383966244725
+            },
+            "Brute Force": {
+                "recall": 0.9969325153374233,
+                "missrate": 0.003067484662576687
+            },
+            "DoS": {
+                "recall": 0.9283175355450237,
+                "missrate": 0.07168246445497631
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.936625,
+                "precision": 0.6697261835094096,
+                "recall": 0.9176232275489534,
+                "f1": 0.7743176112387159,
+                "missrate": 0.08237677245104659,
+                "fallout": 0.06082108176785552,
+                "loss": 0.3589453101158142
+            },
+            "fit": {
+                "test_loss": 0.3589453101158142,
+                "fit_accuracy": 0.9999694228172302,
+                "fit_loss": 0.0010398770682513714
+            }
+        },
+        "9": {
+            "DDoS": {
+                "recall": 0.9667959447506294,
+                "missrate": 0.03320405524937062
+            },
+            "Infilteration": {
+                "recall": 0.07426160337552742,
+                "missrate": 0.9257383966244725
+            },
+            "Brute Force": {
+                "recall": 0.9969325153374233,
+                "missrate": 0.003067484662576687
+            },
+            "DoS": {
+                "recall": 0.9206161137440758,
+                "missrate": 0.07938388625592417
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.937515,
+                "precision": 0.673838129831424,
+                "recall": 0.9159773801485482,
+                "f1": 0.7764680630332517,
+                "missrate": 0.08402261985145172,
+                "fallout": 0.05959025319901987,
+                "loss": 0.3665744662284851
+            },
+            "fit": {
+                "test_loss": 0.3665744662284851,
+                "fit_accuracy": 0.9999694228172302,
+                "fit_loss": 0.00082255934830755
+            }
+        },
+        "10": {
+            "DDoS": {
+                "recall": 0.9738041777233449,
+                "missrate": 0.0261958222766551
+            },
+            "Infilteration": {
+                "recall": 0.0759493670886076,
+                "missrate": 0.9240506329113924
+            },
+            "Brute Force": {
+                "recall": 0.9969325153374233,
+                "missrate": 0.003067484662576687
+            },
+            "DoS": {
+                "recall": 0.9125197472353871,
+                "missrate": 0.08748025276461295
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.9361,
+                "precision": 0.6673104040218257,
+                "recall": 0.9186782579338285,
+                "f1": 0.7730743279235768,
+                "missrate": 0.0813217420661715,
+                "fallout": 0.061558444504946006,
+                "loss": 0.38844034075737
+            },
+            "fit": {
+                "test_loss": 0.38844034075737,
+                "fit_accuracy": 0.9999796152114868,
+                "fit_loss": 0.0007837424054741859
+            }
+        }
+    },
+    "ktkexq_benign_1": {
+        "1": {
+            "DDoS": {
+                "recall": 0.01401646594543104,
+                "missrate": 0.985983534054569
+            },
+            "Infilteration": {
+                "recall": 0.06751054852320675,
+                "missrate": 0.9324894514767933
+            },
+            "Brute Force": {
+                "recall": 0.36273006134969327,
+                "missrate": 0.6372699386503068
+            },
+            "DoS": {
+                "recall": 0.9456951026856241,
+                "missrate": 0.05430489731437599
+            },
+            "Bot": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "injection": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "global": {
+                "accuracy": 0.8366,
+                "precision": 0.27629482071713146,
+                "recall": 0.23413234301147873,
+                "f1": 0.2534722222222222,
+                "missrate": 0.7658676569885212,
+                "fallout": 0.08242580996460659,
+                "loss": 0.5356433987617493
+            },
+            "fit": {
+                "test_loss": 0.5356433987617493,
+                "fit_accuracy": 0.9938229918479919,
+                "fit_loss": 0.05331812798976898
+            }
+        },
+        "2": {
+            "DDoS": {
+                "recall": 0.7899571341090018,
+                "missrate": 0.21004286589099816
+            },
+            "Infilteration": {
+                "recall": 0.07088607594936709,
+                "missrate": 0.9291139240506329
+            },
+            "Brute Force": {
+                "recall": 0.38190184049079756,
+                "missrate": 0.6180981595092024
+            },
+            "DoS": {
+                "recall": 0.9449052132701422,
+                "missrate": 0.05509478672985782
+            },
+            "Bot": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.915125,
+                "precision": 0.6233437327950082,
+                "recall": 0.7167032410533424,
+                "f1": 0.6667713629492943,
+                "missrate": 0.2832967589466577,
+                "fallout": 0.058206280061711586,
+                "loss": 0.2470765858888626
+            },
+            "fit": {
+                "test_loss": 0.2470765858888626,
+                "fit_accuracy": 0.9935634732246399,
+                "fit_loss": 0.019916152581572533
+            }
+        },
+        "3": {
+            "DDoS": {
+                "recall": 0.9667959447506294,
+                "missrate": 0.03320405524937062
+            },
+            "Infilteration": {
+                "recall": 0.05063291139240506,
+                "missrate": 0.9493670886075949
+            },
+            "Brute Force": {
+                "recall": 0.38190184049079756,
+                "missrate": 0.6180981595092024
+            },
+            "DoS": {
+                "recall": 0.9449052132701422,
+                "missrate": 0.05509478672985782
+            },
+            "Bot": {
+                "recall": 0.05694444444444444,
+                "missrate": 0.9430555555555555
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.94192,
+                "precision": 0.7220588235294118,
+                "recall": 0.8288318703578663,
+                "f1": 0.7717698836843759,
+                "missrate": 0.17116812964213368,
+                "fallout": 0.04288047917233869,
+                "loss": 0.21942463517189026
+            },
+            "fit": {
+                "test_loss": 0.21942463517189026,
+                "fit_accuracy": 0.9935634732246399,
+                "fit_loss": 0.022251419723033905
+            }
+        },
+        "4": {
+            "DDoS": {
+                "recall": 0.9667959447506294,
+                "missrate": 0.03320405524937062
+            },
+            "Infilteration": {
+                "recall": 0.05063291139240506,
+                "missrate": 0.9493670886075949
+            },
+            "Brute Force": {
+                "recall": 0.38190184049079756,
+                "missrate": 0.6180981595092024
+            },
+            "DoS": {
+                "recall": 0.9449052132701422,
+                "missrate": 0.05509478672985782
+            },
+            "Bot": {
+                "recall": 0.05694444444444444,
+                "missrate": 0.9430555555555555
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.944645,
+                "precision": 0.7368223597824048,
+                "recall": 0.8288318703578663,
+                "f1": 0.7801235327997458,
+                "missrate": 0.17116812964213368,
+                "fallout": 0.039789227697613214,
+                "loss": 0.23042349517345428
+            },
+            "fit": {
+                "test_loss": 0.23042349517345428,
+                "fit_accuracy": 0.9935634732246399,
+                "fit_loss": 0.0317145511507988
+            }
+        },
+        "5": {
+            "DDoS": {
+                "recall": 0.9667959447506294,
+                "missrate": 0.03320405524937062
+            },
+            "Infilteration": {
+                "recall": 0.05063291139240506,
+                "missrate": 0.9493670886075949
+            },
+            "Brute Force": {
+                "recall": 0.38190184049079756,
+                "missrate": 0.6180981595092024
+            },
+            "DoS": {
+                "recall": 0.9449052132701422,
+                "missrate": 0.05509478672985782
+            },
+            "Bot": {
+                "recall": 0.05694444444444444,
+                "missrate": 0.9430555555555555
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.944765,
+                "precision": 0.7374863880440089,
+                "recall": 0.8288318703578663,
+                "f1": 0.7804955590438531,
+                "missrate": 0.17116812964213368,
+                "fallout": 0.039653099192304204,
+                "loss": 0.2512589395046234
+            },
+            "fit": {
+                "test_loss": 0.2512589395046234,
+                "fit_accuracy": 0.9935634732246399,
+                "fit_loss": 0.03800179809331894
+            }
+        },
+        "6": {
+            "DDoS": {
+                "recall": 0.9667959447506294,
+                "missrate": 0.03320405524937062
+            },
+            "Infilteration": {
+                "recall": 0.05063291139240506,
+                "missrate": 0.9493670886075949
+            },
+            "Brute Force": {
+                "recall": 0.38190184049079756,
+                "missrate": 0.6180981595092024
+            },
+            "DoS": {
+                "recall": 0.9449052132701422,
+                "missrate": 0.05509478672985782
+            },
+            "Bot": {
+                "recall": 0.05694444444444444,
+                "missrate": 0.9430555555555555
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.945305,
+                "precision": 0.7404893865701466,
+                "recall": 0.8288318703578663,
+                "f1": 0.7821740775403732,
+                "missrate": 0.17116812964213368,
+                "fallout": 0.039040520918413646,
+                "loss": 0.2547650635242462
+            },
+            "fit": {
+                "test_loss": 0.2547650635242462,
+                "fit_accuracy": 0.9935634732246399,
+                "fit_loss": 0.04426208883523941
+            }
+        },
+        "7": {
+            "DDoS": {
+                "recall": 0.9667959447506294,
+                "missrate": 0.03320405524937062
+            },
+            "Infilteration": {
+                "recall": 0.05063291139240506,
+                "missrate": 0.9493670886075949
+            },
+            "Brute Force": {
+                "recall": 0.38190184049079756,
+                "missrate": 0.6180981595092024
+            },
+            "DoS": {
+                "recall": 0.9449052132701422,
+                "missrate": 0.05509478672985782
+            },
+            "Bot": {
+                "recall": 0.05694444444444444,
+                "missrate": 0.9430555555555555
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.94577,
+                "precision": 0.7430949678395763,
+                "recall": 0.8288318703578663,
+                "f1": 0.7836252643338786,
+                "missrate": 0.17116812964213368,
+                "fallout": 0.03851302296034123,
+                "loss": 0.2639501094818115
+            },
+            "fit": {
+                "test_loss": 0.2639501094818115,
+                "fit_accuracy": 0.9935634732246399,
+                "fit_loss": 0.049082107841968536
+            }
+        },
+        "8": {
+            "DDoS": {
+                "recall": 0.9667959447506294,
+                "missrate": 0.03320405524937062
+            },
+            "Infilteration": {
+                "recall": 0.05063291139240506,
+                "missrate": 0.9493670886075949
+            },
+            "Brute Force": {
+                "recall": 0.38190184049079756,
+                "missrate": 0.6180981595092024
+            },
+            "DoS": {
+                "recall": 0.9449052132701422,
+                "missrate": 0.05509478672985782
+            },
+            "Bot": {
+                "recall": 0.05694444444444444,
+                "missrate": 0.9430555555555555
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.94821,
+                "precision": 0.757073471590471,
+                "recall": 0.8288318703578663,
+                "f1": 0.7913292235787098,
+                "missrate": 0.17116812964213368,
+                "fallout": 0.03574507668572466,
+                "loss": 0.26242801547050476
+            },
+            "fit": {
+                "test_loss": 0.26242801547050476,
+                "fit_accuracy": 0.9934596419334412,
+                "fit_loss": 0.05403679236769676
+            }
+        },
+        "9": {
+            "DDoS": {
+                "recall": 0.9667959447506294,
+                "missrate": 0.03320405524937062
+            },
+            "Infilteration": {
+                "recall": 0.049789029535864976,
+                "missrate": 0.950210970464135
+            },
+            "Brute Force": {
+                "recall": 0.38190184049079756,
+                "missrate": 0.6180981595092024
+            },
+            "DoS": {
+                "recall": 0.9449052132701422,
+                "missrate": 0.05509478672985782
+            },
+            "Bot": {
+                "recall": 0.05694444444444444,
+                "missrate": 0.9430555555555555
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.94902,
+                "precision": 0.7618511909380091,
+                "recall": 0.8287896691424713,
+                "f1": 0.7939119537534867,
+                "missrate": 0.1712103308575287,
+                "fallout": 0.034820537253834286,
+                "loss": 0.2679405212402344
+            },
+            "fit": {
+                "test_loss": 0.2679405212402344,
+                "fit_accuracy": 0.9923695921897888,
+                "fit_loss": 0.05508328229188919
+            }
+        },
+        "10": {
+            "DDoS": {
+                "recall": 0.9667959447506294,
+                "missrate": 0.03320405524937062
+            },
+            "Infilteration": {
+                "recall": 0.049789029535864976,
+                "missrate": 0.950210970464135
+            },
+            "Brute Force": {
+                "recall": 0.38190184049079756,
+                "missrate": 0.6180981595092024
+            },
+            "DoS": {
+                "recall": 0.9449052132701422,
+                "missrate": 0.05509478672985782
+            },
+            "Bot": {
+                "recall": 0.05694444444444444,
+                "missrate": 0.9430555555555555
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.949005,
+                "precision": 0.7617625383034017,
+                "recall": 0.8287896691424713,
+                "f1": 0.7938638155102371,
+                "missrate": 0.1712103308575287,
+                "fallout": 0.034837553316997914,
+                "loss": 0.27656516432762146
+            },
+            "fit": {
+                "test_loss": 0.27656516432762146,
+                "fit_accuracy": 0.9901375770568848,
+                "fit_loss": 0.056610845029354095
+            }
+        }
+    },
+    "ktkexq_benign_7": {
+        "1": {
+            "DDoS": {
+                "recall": 0.20296659182146015,
+                "missrate": 0.7970334081785398
+            },
+            "Infilteration": {
+                "recall": 0.07679324894514768,
+                "missrate": 0.9232067510548523
+            },
+            "Brute Force": {
+                "recall": 0.0023006134969325155,
+                "missrate": 0.9976993865030674
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "global": {
+                "accuracy": 0.830875,
+                "precision": 0.23571465845640036,
+                "recall": 0.19062288993923024,
+                "f1": 0.21078419935136145,
+                "missrate": 0.8093771100607697,
+                "fallout": 0.0830724203648244,
+                "loss": 0.5337222814559937
+            },
+            "fit": {
+                "test_loss": 0.5337222814559937,
+                "fit_accuracy": 1.0,
+                "fit_loss": 0.0024774866178631783
+            }
+        },
+        "2": {
+            "DDoS": {
+                "recall": 0.9772742736612914,
+                "missrate": 0.02272572633870858
+            },
+            "Infilteration": {
+                "recall": 0.07341772151898734,
+                "missrate": 0.9265822784810127
+            },
+            "Brute Force": {
+                "recall": 0.02147239263803681,
+                "missrate": 0.9785276073619632
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.883615,
+                "precision": 0.5066658181933883,
+                "recall": 0.6720121539500338,
+                "f1": 0.5777414965986395,
+                "missrate": 0.3279878460499662,
+                "fallout": 0.0879446864506761,
+                "loss": 0.48265331983566284
+            },
+            "fit": {
+                "test_loss": 0.48265331983566284,
+                "fit_accuracy": 1.0,
+                "fit_loss": 0.0008804122335277498
+            }
+        },
+        "3": {
+            "DDoS": {
+                "recall": 0.9789072599850309,
+                "missrate": 0.021092740014969042
+            },
+            "Infilteration": {
+                "recall": 0.0751054852320675,
+                "missrate": 0.9248945147679325
+            },
+            "Brute Force": {
+                "recall": 0.02147239263803681,
+                "missrate": 0.9785276073619632
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.83771,
+                "precision": 0.3922581279818996,
+                "recall": 0.6731093855503039,
+                "f1": 0.4956648746076634,
+                "missrate": 0.32689061444969614,
+                "fallout": 0.14016698429984573,
+                "loss": 0.4918223023414612
+            },
+            "fit": {
+                "test_loss": 0.4918223023414612,
+                "fit_accuracy": 1.0,
+                "fit_loss": 0.0007412799168378115
+            }
+        },
+        "4": {
+            "DDoS": {
+                "recall": 0.9789072599850309,
+                "missrate": 0.021092740014969042
+            },
+            "Infilteration": {
+                "recall": 0.06160337552742616,
+                "missrate": 0.9383966244725739
+            },
+            "Brute Force": {
+                "recall": 0.02147239263803681,
+                "missrate": 0.9785276073619632
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.84912,
+                "precision": 0.41551058725357254,
+                "recall": 0.6724341661039838,
+                "f1": 0.5136354844948746,
+                "missrate": 0.3275658338960162,
+                "fallout": 0.12713267991650784,
+                "loss": 0.5473900437355042
+            },
+            "fit": {
+                "test_loss": 0.5473900437355042,
+                "fit_accuracy": 1.0,
+                "fit_loss": 0.0005090836202725768
+            }
+        },
+        "5": {
+            "DDoS": {
+                "recall": 0.9789072599850309,
+                "missrate": 0.021092740014969042
+            },
+            "Infilteration": {
+                "recall": 0.06582278481012659,
+                "missrate": 0.9341772151898734
+            },
+            "Brute Force": {
+                "recall": 0.02223926380368098,
+                "missrate": 0.977760736196319
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.83794,
+                "precision": 0.39264952212040594,
+                "recall": 0.6726873733963538,
+                "f1": 0.49586262676538295,
+                "missrate": 0.3273126266036462,
+                "fallout": 0.13984935112079136,
+                "loss": 0.6347838640213013
+            },
+            "fit": {
+                "test_loss": 0.6347838640213013,
+                "fit_accuracy": 1.0,
+                "fit_loss": 0.0002838002401404083
+            }
+        },
+        "6": {
+            "DDoS": {
+                "recall": 0.9802680819214806,
+                "missrate": 0.019731918078519425
+            },
+            "Infilteration": {
+                "recall": 0.07426160337552742,
+                "missrate": 0.9257383966244725
+            },
+            "Brute Force": {
+                "recall": 0.02223926380368098,
+                "missrate": 0.977760736196319
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.83697,
+                "precision": 0.3909424724602203,
+                "recall": 0.673953409858204,
+                "f1": 0.4948408886685465,
+                "missrate": 0.3260465901417961,
+                "fallout": 0.1411198838370088,
+                "loss": 0.7724217772483826
+            },
+            "fit": {
+                "test_loss": 0.7724217772483826,
+                "fit_accuracy": 1.0,
+                "fit_loss": 0.00010454818402649835
+            }
+        },
+        "7": {
+            "DDoS": {
+                "recall": 0.9802680819214806,
+                "missrate": 0.019731918078519425
+            },
+            "Infilteration": {
+                "recall": 0.0751054852320675,
+                "missrate": 0.9248945147679325
+            },
+            "Brute Force": {
+                "recall": 0.02223926380368098,
+                "missrate": 0.977760736196319
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.83663,
+                "precision": 0.3902981427174976,
+                "recall": 0.673995611073599,
+                "f1": 0.49433576823077874,
+                "missrate": 0.3260043889264011,
+                "fallout": 0.1415112532897722,
+                "loss": 0.8316665887832642
+            },
+            "fit": {
+                "test_loss": 0.8316665887832642,
+                "fit_accuracy": 1.0,
+                "fit_loss": 6.110310641815886e-05
+            }
+        },
+        "8": {
+            "DDoS": {
+                "recall": 0.9802680819214806,
+                "missrate": 0.019731918078519425
+            },
+            "Infilteration": {
+                "recall": 0.0759493670886076,
+                "missrate": 0.9240506329113924
+            },
+            "Brute Force": {
+                "recall": 0.02223926380368098,
+                "missrate": 0.977760736196319
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.836535,
+                "precision": 0.3901223712171173,
+                "recall": 0.674037812288994,
+                "f1": 0.49420610486254,
+                "missrate": 0.3259621877110061,
+                "fallout": 0.14162469371086306,
+                "loss": 0.887664794921875
+            },
+            "fit": {
+                "test_loss": 0.887664794921875,
+                "fit_accuracy": 1.0,
+                "fit_loss": 3.483358887024224e-05
+            }
+        },
+        "9": {
+            "DDoS": {
+                "recall": 0.980472205211948,
+                "missrate": 0.019527794788051982
+            },
+            "Infilteration": {
+                "recall": 0.07763713080168777,
+                "missrate": 0.9223628691983122
+            },
+            "Brute Force": {
+                "recall": 0.029141104294478526,
+                "missrate": 0.9708588957055214
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.83659,
+                "precision": 0.3903022608525807,
+                "recall": 0.6746286293045239,
+                "f1": 0.494509233767439,
+                "missrate": 0.325371370695476,
+                "fallout": 0.14164170977402668,
+                "loss": 0.9017142057418823
+            },
+            "fit": {
+                "test_loss": 0.9017142057418823,
+                "fit_accuracy": 1.0,
+                "fit_loss": 3.0178580345818773e-05
+            }
+        },
+        "10": {
+            "DDoS": {
+                "recall": 0.9816969449547527,
+                "missrate": 0.01830305504524733
+            },
+            "Infilteration": {
+                "recall": 0.08016877637130802,
+                "missrate": 0.919831223628692
+            },
+            "Brute Force": {
+                "recall": 0.03144171779141104,
+                "missrate": 0.968558282208589
+            },
+            "DoS": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.837005,
+                "precision": 0.3912225398919923,
+                "recall": 0.675641458474004,
+                "f1": 0.4955198935297668,
+                "missrate": 0.32435854152599597,
+                "fallout": 0.1413070605318087,
+                "loss": 0.9162228107452393
+            },
+            "fit": {
+                "test_loss": 0.9162228107452393,
+                "fit_accuracy": 1.0,
+                "fit_loss": 2.4819866666803136e-05
+            }
+        }
+    },
+    "ktkexq_benign_5": {
+        "1": {
+            "DDoS": {
+                "recall": 0.7956725862420903,
+                "missrate": 0.20432741375790978
+            },
+            "Infilteration": {
+                "recall": 0.6708860759493671,
+                "missrate": 0.3291139240506329
+            },
+            "Brute Force": {
+                "recall": 0.3320552147239264,
+                "missrate": 0.6679447852760736
+            },
+            "DoS": {
+                "recall": 0.884083728278041,
+                "missrate": 0.11591627172195892
+            },
+            "Bot": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.55468,
+                "precision": 0.1737407414801653,
+                "recall": 0.7345121539500338,
+                "f1": 0.28101135024298884,
+                "missrate": 0.2654878460499662,
+                "fallout": 0.46949019874761777,
+                "loss": 0.6208081245422363
+            },
+            "fit": {
+                "test_loss": 0.6208081245422363,
+                "fit_accuracy": 0.9931803345680237,
+                "fit_loss": 0.024847332388162613
+            }
+        },
+        "2": {
+            "DDoS": {
+                "recall": 0.7888684765598422,
+                "missrate": 0.21113152344015784
+            },
+            "Infilteration": {
+                "recall": 0.06413502109704641,
+                "missrate": 0.9358649789029536
+            },
+            "Brute Force": {
+                "recall": 0.3535276073619632,
+                "missrate": 0.6464723926380368
+            },
+            "DoS": {
+                "recall": 0.9364139020537124,
+                "missrate": 0.06358609794628751
+            },
+            "Bot": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.911965,
+                "precision": 0.6100328887925115,
+                "recall": 0.712314314652262,
+                "f1": 0.6572179499659301,
+                "missrate": 0.28768568534773803,
+                "fallout": 0.06120110717850984,
+                "loss": 0.2593444883823395
+            },
+            "fit": {
+                "test_loss": 0.2593444883823395,
+                "fit_accuracy": 0.994607150554657,
+                "fit_loss": 0.01820007711648941
+            }
+        },
+        "3": {
+            "DDoS": {
+                "recall": 0.9650268762332449,
+                "missrate": 0.03497312376675512
+            },
+            "Infilteration": {
+                "recall": 0.036286919831223625,
+                "missrate": 0.9637130801687763
+            },
+            "Brute Force": {
+                "recall": 0.36579754601226994,
+                "missrate": 0.63420245398773
+            },
+            "DoS": {
+                "recall": 0.8635466034755134,
+                "missrate": 0.13645339652448657
+            },
+            "Bot": {
+                "recall": 0.0,
+                "missrate": 1.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.955315,
+                "precision": 0.8152958769493698,
+                "recall": 0.8052835921674544,
+                "f1": 0.8102588055455299,
+                "missrate": 0.19471640783254557,
+                "fallout": 0.024520147018785732,
+                "loss": 0.17861424386501312
+            },
+            "fit": {
+                "test_loss": 0.17861424386501312,
+                "fit_accuracy": 0.991826057434082,
+                "fit_loss": 0.024104489013552666
+            }
+        },
+        "4": {
+            "DDoS": {
+                "recall": 0.9666598625569844,
+                "missrate": 0.03334013744301558
+            },
+            "Infilteration": {
+                "recall": 0.0379746835443038,
+                "missrate": 0.9620253164556962
+            },
+            "Brute Force": {
+                "recall": 0.3726993865030675,
+                "missrate": 0.6273006134969326
+            },
+            "DoS": {
+                "recall": 0.865916271721959,
+                "missrate": 0.13408372827804108
+            },
+            "Bot": {
+                "recall": 0.05347222222222222,
+                "missrate": 0.9465277777777777
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.953435,
+                "precision": 0.7992841982604353,
+                "recall": 0.8105165428764348,
+                "f1": 0.8048611838658983,
+                "missrate": 0.18948345712356515,
+                "fallout": 0.02735615754605681,
+                "loss": 0.1782776117324829
+            },
+            "fit": {
+                "test_loss": 0.1782776117324829,
+                "fit_accuracy": 0.9919469952583313,
+                "fit_loss": 0.02500542439520359
+            }
+        },
+        "5": {
+            "DDoS": {
+                "recall": 0.9666598625569844,
+                "missrate": 0.03334013744301558
+            },
+            "Infilteration": {
+                "recall": 0.0379746835443038,
+                "missrate": 0.9620253164556962
+            },
+            "Brute Force": {
+                "recall": 0.37346625766871167,
+                "missrate": 0.6265337423312883
+            },
+            "DoS": {
+                "recall": 0.8846761453396524,
+                "missrate": 0.11532385466034756
+            },
+            "Bot": {
+                "recall": 0.05347222222222222,
+                "missrate": 0.9465277777777777
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.95375,
+                "precision": 0.7989899826144549,
+                "recall": 0.8145678595543552,
+                "f1": 0.8067037238266394,
+                "missrate": 0.18543214044564482,
+                "fallout": 0.027543334240856702,
+                "loss": 0.19368566572666168
+            },
+            "fit": {
+                "test_loss": 0.19368566572666168,
+                "fit_accuracy": 0.9928901195526123,
+                "fit_loss": 0.02189035899937153
+            }
+        },
+        "6": {
+            "DDoS": {
+                "recall": 0.9666598625569844,
+                "missrate": 0.03334013744301558
+            },
+            "Infilteration": {
+                "recall": 0.039662447257383965,
+                "missrate": 0.960337552742616
+            },
+            "Brute Force": {
+                "recall": 0.37423312883435583,
+                "missrate": 0.6257668711656442
+            },
+            "DoS": {
+                "recall": 0.8890205371248026,
+                "missrate": 0.11097946287519747
+            },
+            "Bot": {
+                "recall": 0.05347222222222222,
+                "missrate": 0.9465277777777777
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.94608,
+                "precision": 0.7507963639188874,
+                "recall": 0.8156228899392303,
+                "f1": 0.7818681985517213,
+                "missrate": 0.18437711006076976,
+                "fallout": 0.03638601506488792,
+                "loss": 0.21363525092601776
+            },
+            "fit": {
+                "test_loss": 0.21363525092601776,
+                "fit_accuracy": 0.9932045340538025,
+                "fit_loss": 0.0199350044131279
+            }
+        },
+        "7": {
+            "DDoS": {
+                "recall": 0.9667279036538069,
+                "missrate": 0.0332720963461931
+            },
+            "Infilteration": {
+                "recall": 0.04135021097046414,
+                "missrate": 0.9586497890295359
+            },
+            "Brute Force": {
+                "recall": 0.37806748466257667,
+                "missrate": 0.6219325153374233
+            },
+            "DoS": {
+                "recall": 0.8911927330173776,
+                "missrate": 0.10880726698262243
+            },
+            "Bot": {
+                "recall": 0.05347222222222222,
+                "missrate": 0.9465277777777777
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.94293,
+                "precision": 0.732525558500568,
+                "recall": 0.8164247130317354,
+                "f1": 0.7722029297888476,
+                "missrate": 0.1835752869682647,
+                "fallout": 0.04006715672928578,
+                "loss": 0.23210404813289642
+            },
+            "fit": {
+                "test_loss": 0.23210404813289642,
+                "fit_accuracy": 0.9933496117591858,
+                "fit_loss": 0.017956435680389404
+            }
+        },
+        "8": {
+            "DDoS": {
+                "recall": 0.9667279036538069,
+                "missrate": 0.0332720963461931
+            },
+            "Infilteration": {
+                "recall": 0.04219409282700422,
+                "missrate": 0.9578059071729957
+            },
+            "Brute Force": {
+                "recall": 0.37806748466257667,
+                "missrate": 0.6219325153374233
+            },
+            "DoS": {
+                "recall": 0.8977093206951027,
+                "missrate": 0.10229067930489731
+            },
+            "Bot": {
+                "recall": 0.05347222222222222,
+                "missrate": 0.9465277777777777
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.94084,
+                "precision": 0.720553242117787,
+                "recall": 0.8178595543551654,
+                "f1": 0.7661290322580645,
+                "missrate": 0.18214044564483456,
+                "fallout": 0.04263091024593883,
+                "loss": 0.2466275840997696
+            },
+            "fit": {
+                "test_loss": 0.2466275840997696,
+                "fit_accuracy": 0.9938091039657593,
+                "fit_loss": 0.015752634033560753
+            }
+        },
+        "9": {
+            "DDoS": {
+                "recall": 0.9737361366265225,
+                "missrate": 0.02626386337347758
+            },
+            "Infilteration": {
+                "recall": 0.043037974683544304,
+                "missrate": 0.9569620253164557
+            },
+            "Brute Force": {
+                "recall": 0.38266871165644173,
+                "missrate": 0.6173312883435583
+            },
+            "DoS": {
+                "recall": 0.9042259083728278,
+                "missrate": 0.0957740916271722
+            },
+            "Bot": {
+                "recall": 0.05347222222222222,
+                "missrate": 0.9465277777777777
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.935015,
+                "precision": 0.6887148551874978,
+                "recall": 0.8238943281566509,
+                "f1": 0.7502642046000423,
+                "missrate": 0.17610567184334908,
+                "fallout": 0.050049913785279974,
+                "loss": 0.26131176948547363
+            },
+            "fit": {
+                "test_loss": 0.26131176948547363,
+                "fit_accuracy": 0.9942927360534668,
+                "fit_loss": 0.014159629121422768
+            }
+        },
+        "10": {
+            "DDoS": {
+                "recall": 0.9737361366265225,
+                "missrate": 0.02626386337347758
+            },
+            "Infilteration": {
+                "recall": 0.049789029535864976,
+                "missrate": 0.950210970464135
+            },
+            "Brute Force": {
+                "recall": 0.995398773006135,
+                "missrate": 0.004601226993865031
+            },
+            "DoS": {
+                "recall": 0.9164691943127962,
+                "missrate": 0.0835308056872038
+            },
+            "Bot": {
+                "recall": 0.05347222222222222,
+                "missrate": 0.9465277777777777
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.913515,
+                "precision": 0.593049294750618,
+                "recall": 0.8605671843349089,
+                "f1": 0.7021917666706841,
+                "missrate": 0.13943281566509116,
+                "fallout": 0.07936859061620836,
+                "loss": 0.27217715978622437
+            },
+            "fit": {
+                "test_loss": 0.27217715978622437,
+                "fit_accuracy": 0.9947280883789062,
+                "fit_loss": 0.012800442054867744
+            }
+        }
+    },
+    "ktkexq_benign_3": {
+        "1": {
+            "DDoS": {
+                "recall": 0.9889093012179356,
+                "missrate": 0.011090698782064368
+            },
+            "Infilteration": {
+                "recall": 0.3949367088607595,
+                "missrate": 0.6050632911392405
+            },
+            "Brute Force": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "DoS": {
+                "recall": 0.9996050552922591,
+                "missrate": 0.00039494470774091627
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.551975,
+                "precision": 0.20454199055022101,
+                "recall": 0.962778528021607,
+                "f1": 0.33740285285396315,
+                "missrate": 0.03722147197839298,
+                "fallout": 0.5032387240221435,
+                "loss": 2.2878100872039795
+            },
+            "fit": {
+                "test_loss": 2.2878100872039795,
+                "fit_accuracy": 1.0,
+                "fit_loss": 0.001978496788069606
+            }
+        },
+        "2": {
+            "DDoS": {
+                "recall": 0.992923725930462,
+                "missrate": 0.007076274069538001
+            },
+            "Infilteration": {
+                "recall": 0.22616033755274262,
+                "missrate": 0.7738396624472574
+            },
+            "Brute Force": {
+                "recall": 0.9992331288343558,
+                "missrate": 0.0007668711656441718
+            },
+            "DoS": {
+                "recall": 0.9960505529225908,
+                "missrate": 0.0039494470774091624
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.577665,
+                "precision": 0.21355782011519717,
+                "recall": 0.9560263335584065,
+                "f1": 0.34912733577345406,
+                "missrate": 0.04397366644159352,
+                "fallout": 0.47318835647517926,
+                "loss": 2.4976115226745605
+            },
+            "fit": {
+                "test_loss": 2.4976115226745605,
+                "fit_accuracy": 1.0,
+                "fit_loss": 0.00018333060143049806
+            }
+        },
+        "3": {
+            "DDoS": {
+                "recall": 0.992923725930462,
+                "missrate": 0.007076274069538001
+            },
+            "Infilteration": {
+                "recall": 0.22447257383966246,
+                "missrate": 0.7755274261603375
+            },
+            "Brute Force": {
+                "recall": 0.9992331288343558,
+                "missrate": 0.0007668711656441718
+            },
+            "DoS": {
+                "recall": 0.9960505529225908,
+                "missrate": 0.0039494470774091624
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.57825,
+                "precision": 0.21378281960776913,
+                "recall": 0.9559419311276165,
+                "f1": 0.34942230860598206,
+                "missrate": 0.044058068872383525,
+                "fallout": 0.4725133859696887,
+                "loss": 2.867094039916992
+            },
+            "fit": {
+                "test_loss": 2.867094039916992,
+                "fit_accuracy": 1.0,
+                "fit_loss": 3.759234459721483e-05
+            }
+        },
+        "4": {
+            "DDoS": {
+                "recall": 0.992923725930462,
+                "missrate": 0.007076274069538001
+            },
+            "Infilteration": {
+                "recall": 0.2270042194092827,
+                "missrate": 0.7729957805907173
+            },
+            "Brute Force": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "DoS": {
+                "recall": 0.9960505529225908,
+                "missrate": 0.0039494470774091624
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.569895,
+                "precision": 0.21048524206360267,
+                "recall": 0.9561107359891965,
+                "f1": 0.34501610410178707,
+                "missrate": 0.04388926401080351,
+                "fallout": 0.4820140212360468,
+                "loss": 3.1668550968170166
+            },
+            "fit": {
+                "test_loss": 3.1668550968170166,
+                "fit_accuracy": 1.0,
+                "fit_loss": 2.0547200620057993e-05
+            }
+        },
+        "5": {
+            "DDoS": {
+                "recall": 0.992923725930462,
+                "missrate": 0.007076274069538001
+            },
+            "Infilteration": {
+                "recall": 0.2320675105485232,
+                "missrate": 0.7679324894514767
+            },
+            "Brute Force": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "DoS": {
+                "recall": 0.9994075829383886,
+                "missrate": 0.0005924170616113745
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.56744,
+                "precision": 0.20965296651690796,
+                "recall": 0.9570813639432816,
+                "f1": 0.3439599605672253,
+                "missrate": 0.04291863605671843,
+                "fallout": 0.4849294400580815,
+                "loss": 3.239473342895508
+            },
+            "fit": {
+                "test_loss": 3.239473342895508,
+                "fit_accuracy": 1.0,
+                "fit_loss": 1.3285934983287007e-05
+            }
+        },
+        "6": {
+            "DDoS": {
+                "recall": 0.992923725930462,
+                "missrate": 0.007076274069538001
+            },
+            "Infilteration": {
+                "recall": 0.23544303797468355,
+                "missrate": 0.7645569620253164
+            },
+            "Brute Force": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "DoS": {
+                "recall": 0.9994075829383886,
+                "missrate": 0.0005924170616113745
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.567975,
+                "precision": 0.20988202637057599,
+                "recall": 0.9572501688048616,
+                "f1": 0.34427909023988584,
+                "missrate": 0.04274983119513842,
+                "fallout": 0.48434522188946366,
+                "loss": 3.3178153038024902
+            },
+            "fit": {
+                "test_loss": 3.3178153038024902,
+                "fit_accuracy": 1.0,
+                "fit_loss": 9.161628440779168e-06
+            }
+        },
+        "7": {
+            "DDoS": {
+                "recall": 0.9929917670272845,
+                "missrate": 0.00700823297271552
+            },
+            "Infilteration": {
+                "recall": 0.23544303797468355,
+                "missrate": 0.7645569620253164
+            },
+            "Brute Force": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "DoS": {
+                "recall": 0.9950631911532386,
+                "missrate": 0.0049368088467614535
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.56838,
+                "precision": 0.20992663405958203,
+                "recall": 0.9563639432815665,
+                "f1": 0.34428172095284393,
+                "missrate": 0.04363605671843349,
+                "fallout": 0.48376667574190035,
+                "loss": 3.3178346157073975
+            },
+            "fit": {
+                "test_loss": 3.3178346157073975,
+                "fit_accuracy": 1.0,
+                "fit_loss": 7.348904546233825e-06
+            }
+        },
+        "8": {
+            "DDoS": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "Infilteration": {
+                "recall": 0.23122362869198312,
+                "missrate": 0.7687763713080169
+            },
+            "Brute Force": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "DoS": {
+                "recall": 0.9881516587677726,
+                "missrate": 0.011848341232227487
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.569315,
+                "precision": 0.2106292461836483,
+                "recall": 0.9590226198514518,
+                "f1": 0.3453988615896707,
+                "missrate": 0.04097738014854828,
+                "fallout": 0.48306334513113713,
+                "loss": 3.2555367946624756
+            },
+            "fit": {
+                "test_loss": 3.2555367946624756,
+                "fit_accuracy": 1.0,
+                "fit_loss": 6.133310762379551e-06
+            }
+        },
+        "9": {
+            "DDoS": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "Infilteration": {
+                "recall": 0.23375527426160336,
+                "missrate": 0.7662447257383966
+            },
+            "Brute Force": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "DoS": {
+                "recall": 0.9834123222748815,
+                "missrate": 0.016587677725118485
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.57017,
+                "precision": 0.21085087018703913,
+                "recall": 0.9581363943281567,
+                "f1": 0.345639167567403,
+                "missrate": 0.04186360567184335,
+                "fallout": 0.48197431708866506,
+                "loss": 3.227949619293213
+            },
+            "fit": {
+                "test_loss": 3.227949619293213,
+                "fit_accuracy": 1.0,
+                "fit_loss": 4.872874797001714e-06
+            }
+        },
+        "10": {
+            "DDoS": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "Infilteration": {
+                "recall": 0.23375527426160336,
+                "missrate": 0.7662447257383966
+            },
+            "Brute Force": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "DoS": {
+                "recall": 0.9816350710900474,
+                "missrate": 0.018364928909952605
+            },
+            "Bot": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "injection": {
+                "recall": 1.0,
+                "missrate": 0.0
+            },
+            "global": {
+                "accuracy": 0.57615,
+                "precision": 0.21317064923354373,
+                "recall": 0.9577565833896016,
+                "f1": 0.34872464658881375,
+                "missrate": 0.04224341661039838,
+                "fallout": 0.4751395317179417,
+                "loss": 3.2075212001800537
+            },
+            "fit": {
+                "test_loss": 3.2075212001800537,
+                "fit_accuracy": 1.0,
+                "fit_loss": 3.5280970678286394e-06
+            }
+        }
+    }
+}

@@ -1,0 +1,192 @@
+hydra:
+  run:
+    dir: ${gitdir:}/outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  sweep:
+    dir: ${gitdir:}/multirun/${now:%Y-%m-%d}/${now:%H-%M-%S}
+    subdir: ${sanitize:${hydra.job.override_dirname}}
+  launcher:
+    _target_: hydra._internal.core_plugins.basic_launcher.BasicLauncher
+  sweeper:
+    _target_: hydra._internal.core_plugins.basic_sweeper.BasicSweeper
+    max_batch_size: null
+    params:
+      partitioner: iid
+      +datasets: nfv2/sampled/cicids
+      batch_size: '512'
+      +epochs: 100/10x10
+      +distribution: glob(*)
+      +target: untargeted,dos
+      +scenario: redemption-3,continuous-100,continuous-10,continuous-30,continuous-60
+      seed: 1138,421,1313,5555,6567,327,2187,1977,501,3263827
+  help:
+    app_name: ${hydra.job.name}
+    header: '${hydra.help.app_name} is powered by Hydra.
+
+      '
+    footer: 'Powered by Hydra (https://hydra.cc)
+
+      Use --hydra-help to view Hydra specific help
+
+      '
+    template: '${hydra.help.header}
+
+      == Configuration groups ==
+
+      Compose your configuration from those groups (group=option)
+
+
+      $APP_CONFIG_GROUPS
+
+
+      == Config ==
+
+      Override anything in the config (foo.bar=value)
+
+
+      $CONFIG
+
+
+      ${hydra.help.footer}
+
+      '
+  hydra_help:
+    template: 'Hydra (${hydra.runtime.version})
+
+      See https://hydra.cc for more info.
+
+
+      == Flags ==
+
+      $FLAGS_HELP
+
+
+      == Configuration groups ==
+
+      Compose your configuration from those groups (For example, append hydra/job_logging=disabled
+      to command line)
+
+
+      $HYDRA_CONFIG_GROUPS
+
+
+      Use ''--cfg hydra'' to Show the Hydra config.
+
+      '
+    hydra_help: ???
+  hydra_logging:
+    version: 1
+    formatters:
+      simple:
+        format: '[%(asctime)s][HYDRA] %(message)s'
+    handlers:
+      console:
+        class: logging.StreamHandler
+        formatter: simple
+        stream: ext://sys.stdout
+    root:
+      level: INFO
+      handlers:
+      - console
+    loggers:
+      logging_example:
+        level: DEBUG
+    disable_existing_loggers: false
+  job_logging:
+    version: 1
+    formatters:
+      colored:
+        (): eiffel.utils.logging.ColoredFormatter
+        verbose_loggers: ${hydra.verbose}
+      simple:
+        format: '%(asctime)s [%(levelname)s] %(name)s:%(filename)s:%(lineno)d > %(message)s'
+    handlers:
+      console:
+        class: logging.StreamHandler
+        formatter: colored
+        stream: ext://sys.stderr
+      file:
+        class: logging.FileHandler
+        formatter: simple
+        filename: ${hydra.runtime.output_dir}/${hydra.job.name}.log
+    root:
+      level: INFO
+      handlers:
+      - console
+      - file
+    disable_existing_loggers: false
+  env: {}
+  mode: MULTIRUN
+  searchpath: []
+  callbacks:
+    plot:
+      _target_: eiffel.callbacks.plot.PlotCallback
+      input: metrics.json
+      output: plot.png
+  output_subdir: .hydra
+  overrides:
+    hydra: []
+    task:
+    - partitioner=iid
+    - +datasets=nfv2/sampled/cicids
+    - batch_size=512
+    - +epochs=100/10x10
+    - +distribution=5-5
+    - +target=dos
+    - +scenario=redemption-3
+    - seed=5555
+  job:
+    name: __main__
+    chdir: true
+    override_dirname: +datasets=nfv2/sampled/cicids,+distribution=5-5,+epochs=100/10x10,+scenario=redemption-3,+target=dos,batch_size=512,partitioner=iid,seed=5555
+    id: '253'
+    num: 253
+    config_name: eiffel
+    env_set: {}
+    env_copy: []
+    config:
+      override_dirname:
+        kv_sep: '='
+        item_sep: ','
+        exclude_keys:
+        - callbacks
+  runtime:
+    version: 1.3.2
+    version_base: '1.3'
+    cwd: /home/leo/Workspace/phdcybersec/fl-ids
+    config_sources:
+    - path: hydra.conf
+      schema: pkg
+      provider: hydra
+    - path: eiffel.conf
+      schema: pkg
+      provider: main
+    - path: /home/leo/Workspace/phdcybersec/fl-ids/exps/assessment/attacks/conf
+      schema: file
+      provider: command-line
+    - path: ''
+      schema: structured
+      provider: schema
+    output_dir: /home/leo/Workspace/phdcybersec/fl-ids/multirun/2024-01-19/18-44-50/+datasets=nfv2_sampled_cicids,+distribution=5-5,+epochs=100_10x10,+scenario=redemption-3,+target=dos,batch_size=512,partitioner=iid,seed=5555
+    choices:
+      scenario: redemption-3
+      target: dos
+      distribution: 5-5
+      epochs: 100/10x10
+      datasets: nfv2/sampled/cicids
+      setup: null
+      .@_global_: config
+      poisoning/type: untargeted
+      poisoning/profile: loud
+      partitioner: iid
+      model: popoola
+      strategy: fedavg
+      hydra/env: default
+      hydra/callbacks: null
+      hydra/job_logging: eiffel
+      hydra/hydra_logging: default
+      hydra/hydra_help: default
+      hydra/help: default
+      hydra/sweeper: basic
+      hydra/launcher: basic
+      hydra/output: default
+  verbose: false

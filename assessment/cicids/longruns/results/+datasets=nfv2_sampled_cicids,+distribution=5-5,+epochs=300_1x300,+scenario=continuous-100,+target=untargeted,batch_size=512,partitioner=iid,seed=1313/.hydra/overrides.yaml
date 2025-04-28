@@ -1,0 +1,8 @@
+- partitioner=iid
+- +datasets=nfv2/sampled/cicids
+- batch_size=512
+- +epochs=300/1x300
+- +distribution=5-5
+- +target=untargeted
+- +scenario=continuous-100
+- seed=1313

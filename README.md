@@ -21,12 +21,8 @@ Finally, we provide a methodology and tools to extend our findings to other mode
 ## Usage
 
 This repository contains pointers to access the code and results presented in the paper.
-Given the sheer size of the experiments, and the amount of data generated, the results themselves are hosted on a second support:
+The `assessment` folder contains the notebooks used to generate the results presented in the paper, as well as the JSON files used to store the results of each experiment.
 
-> At the time, you can access the results from my experiments monorepo: [FL-IDS/exps/assessment](https://github.com/leolavaur/fl-ids/tree/main/exps/assessment). Note that this subject to change.
+Given the size of the experiments and the amount of data generated, the saved gradients used in the "Similarity" experiment are not included in this repository, and can be downloaded from the following link: [assessment.zip](http://seafile.srcd.imta.fr/f/b70b33f286b54b7e86b0/?dl=1).
 
-If you wish to generate the results from scratch, or extend the study to other models or datasets, please refer to the [`eiffel`](https://github.com/leolavaur/eiffel) repository for more information.
-
-## License
-
-This code is released under the MIT License. See the `LICENSE` file for more information.
+If you wish to generate the results from scratch, or extend the study to other models or datasets, please refer to the [`eiffel`](https://github.com/leolavaur/eiffel) repository which was used to generate the results presented in the paper.

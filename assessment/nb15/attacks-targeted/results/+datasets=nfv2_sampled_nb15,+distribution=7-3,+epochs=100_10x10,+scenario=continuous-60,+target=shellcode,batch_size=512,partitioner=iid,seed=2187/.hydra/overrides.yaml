@@ -1,0 +1,9 @@
+- partitioner=iid
+- +datasets=nfv2/sampled/nb15
+- batch_size=512
+- +epochs=100/10x10
+- +distribution=7-3
+- +target=shellcode
+- seed=2187
+- +scenario=continuous-60
+- +callbacks=mattermost

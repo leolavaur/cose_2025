@@ -1,0 +1,9 @@
+- partitioner=iid
+- +datasets=nfv2/sampled/cicids
+- batch_size=512
+- +epochs=100/10x10
+- +distribution=5-5
+- +target=bot
+- +scenario=continuous-99
+- seed=6567
+- +callbacks=mattermost

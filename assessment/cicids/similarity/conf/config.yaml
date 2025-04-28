@@ -1,0 +1,25 @@
+experiment:
+  attacks:
+  - ${attack}
+  partitioner: 
+    attacker_target: ${experiment.attacks[0].target}
+    n_attackers: ${experiment.pools[0].n_malicious}
+  strategy:
+    _target_: exps.assessment.similarity.module.SaveFedAvg
+
+attack: null
+
+# ====
+
+hydra:
+  mode: MULTIRUN
+  sweeper:
+    params:
+      partitioner: glob(iid_*)
+      +datasets: nfv2/sampled/cicids
+      batch_size: 512
+      +epochs: 100/10x10
+      +distribution: 10-0,9-1,5-5
+      +target: dos,ddos,bot,bruteforce,infiltration,untargeted
+      +scenario: continuous-100
+      seed: 1138,421,1313,5555,6567,327,2187,1977,501,3263827

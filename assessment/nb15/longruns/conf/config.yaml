@@ -1,0 +1,21 @@
+experiment:
+  attacks:
+  - ${attack}
+
+attack: null
+
+# ====
+
+hydra:
+  mode: MULTIRUN
+  sweeper:
+    params:
+      partitioner: iid
+      +datasets: nfv2/sampled/nb15
+      batch_size: 32,512
+      #+epochs: 300/1x300,300/4x75,300/10x30
+      +epochs: 300/1x300
+      +distribution: 5-5
+      +target: untargeted
+      +scenario: continuous-100
+      seed: 1138,421,1313,5555,6567,327,2187,1977,501,3263827

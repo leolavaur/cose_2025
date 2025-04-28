@@ -1,0 +1,9 @@
+- partitioner=kmeans_drop_2
+- +datasets=nfv2/sampled/nb15
+- batch_size=512
+- +epochs=100/10x10
+- +distribution=5-5
+- +target=reconnaissance
+- +scenario=continuous-100
+- seed=327
+- +callbacks=mattermost
