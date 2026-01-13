@@ -4,7 +4,21 @@ This repository contains the code for the paper "Investigating the Impact of Lab
 If you use this data or the mentioned experimentation framework, please cite the following paper:
 
 ```bibtex
-% Coming soon.
+@article{lavaur_cose_2025,
+  title = {Investigating the Impact of Label-flipping Attacks against Federated Learning for Collaborative Intrusion Detection},
+  journal = {Computers & Security},
+  volume = {156},
+  pages = {104462},
+  year = {2025},
+  issn = {0167-4048},
+  doi = {https://doi.org/10.1016/j.cose.2025.104462},
+  url = {https://www.sciencedirect.com/science/article/pii/S0167404825001518},
+  author = {Léo Lavaur and Yann Busnel and Fabien Autrel},
+  keywords = {Federated learning, Intrusion detection, Data-poisoning, Label-flipping, Systematic analysis, Quantitative assessment},
+  abstract = {
+    The recent advances in Federated Learning (FL) and its promise of privacy-preserving information sharing have led to a renewed interest in the development of collaborative models for Intrusion Detection Systems (IDSs). However, its distributed nature makes FL vulnerable to malicious contributions from its participants, including data poisoning attacks. Label-flipping attacks — where the labels of a subset of the training data are flipped — have been overlooked in the context of IDSs that leverage FL primitives. This work contributes to closing this gap by providing a systematic and comprehensive overview of the impact of label-flipping attacks on Federated Intrusion Detection Systems (FIDSs). We show that the effects of such attacks can range from severe to highly mitigated, depending on hyperparameters and dataset characteristics, and that their mitigation is non-trivial in heterogeneous settings. We discuss these findings in the context of existing literature and propose recommendations for the evaluation of FIDSs. Finally, we provide a methodology and tools to extend our findings to other models and datasets, thus enabling the comparable evaluation of existing and future countermeasures.
+  }
+}
 ```
 
 ## Abstract
